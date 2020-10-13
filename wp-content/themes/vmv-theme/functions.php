@@ -9,13 +9,13 @@ function vmv_theme_setup() {
 	add_theme_support( 'custom-logo', [
 			'width'       => 163,
 			'flex-height' => true,
-			'header-text' => 'Vmv',
+			'header-text' => 'VMV_developer',
 			'unlink-homepage-logo' => false, // WP 5.5
 		] ); 
 		// Регистрация меню
 		register_nav_menus( [
-			'header_menu' => 'Меню в шапке',
-			'footer_menu' => 'Меню в подвале'
+			'header_menu' => 'Menu in header',
+			'footer_menu' => 'Menu in footer'
 		] );
 }
 endif;
