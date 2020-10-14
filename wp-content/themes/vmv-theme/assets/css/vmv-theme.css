@@ -195,6 +195,16 @@ body {
   text-decoration: none;
 }
 
+.hero .left .post-title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
 .hero .right {
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
