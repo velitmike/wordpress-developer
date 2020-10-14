@@ -113,7 +113,12 @@ body {
   cursor: pointer;
 }
 
+.home {
+  background-color: #E5E5E5;
+}
+
 .front-page-header {
+  padding-top: 30px;
   background-color: #262D33;
   position: relative;
 }
