@@ -1,8 +1,12 @@
+.front-page-header
+	background-color: #262D33
 .hero
 	// border: 1px solid red
 	display: flex
 	overflow: hidden
 	border-radius: 10px
+	min-height: 570px
+	background-color: #fff
 	.left
 		flex-basis: 75%
 		position: relative
@@ -11,10 +15,10 @@
 		display: flex
 		flex-direction: column
 		justify-content: space-between
-		&::after
+		&::before
 			content: ""
 			position: absolute
-			z-index: -1
+			z-index: 1
 			width: 100%
 			height: 100%
 			left: 0
@@ -27,8 +31,10 @@
 			bottom: 0
 			right: 0
 			height: 100%
-			z-index: -2
+			z-index: 0
 		.author
+			position: relative
+			z-index: 2
 			display: flex
 			align-items: center
 			text-decoration: none
@@ -61,6 +67,9 @@
 				font-family: 'Roboto Slab', serif
 				margin-top: 20px
 				margin-bottom: 50px
+			&-text
+				z-index: 2
+				position: relative
 		.more
 			display: inline-block
 			color: #ffffff
