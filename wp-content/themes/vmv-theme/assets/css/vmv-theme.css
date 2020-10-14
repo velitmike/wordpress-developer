@@ -135,13 +135,24 @@ body {
           justify-content: space-between;
 }
 
+.hero .left::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(64, 48, 61, 0.35);
+}
+
 .hero .left .post-thumb {
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
   right: 0;
-  z-index: -1;
+  z-index: -2;
 }
 
 .hero .left .author {
@@ -173,6 +184,15 @@ body {
   width: 45px;
   height: 45px;
   border-radius: 50%;
+}
+
+.hero .left .category-name {
+  color: #4592FF;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .hero .right {
