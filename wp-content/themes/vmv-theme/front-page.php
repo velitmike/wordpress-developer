@@ -21,7 +21,29 @@
 		</div>
 		<!-- /.left -->
 		<div class="right">
-		
+			<h3 class="recommend">Рекомендуем</h3>
+			<ul class="posts-list">
+				<li class="post">
+					<span class="category-name">Категория</span>
+					<h4 class="post-title">Название поста в две строки</h4>
+				</li>
+				<li class="post">
+					<span class="category-name">Категория</span>
+					<h4 class="post-title">Название поста в две строки</h4>
+				</li>
+				<li class="post">
+					<span class="category-name">Категория</span>
+					<h4 class="post-title">Название поста в две строки</h4>
+				</li>
+				<li class="post">
+					<span class="category-name">Категория</span>
+					<h4 class="post-title">Название поста в две строки</h4>
+				</li>
+				<li class="post">
+					<span class="category-name">Категория</span>
+					<h4 class="post-title">Название поста в две строки</h4>
+				</li>
+			</ul>
 		</div>
 		<!-- /.right -->
 	</div>

@@ -1,5 +1,5 @@
 .hero
-	border: 1px solid red
+	// border: 1px solid red
 	display: flex
 	overflow: hidden
 	border-radius: 10px
@@ -26,6 +26,7 @@
 			top: 0
 			bottom: 0
 			right: 0
+			height: 100%
 			z-index: -2
 		.author
 			display: flex
@@ -73,3 +74,36 @@
 			background-position: center right 20px
 	.right
 		flex-basis: 25%
+		.recommend
+			margin-left: 25px
+			margin-bottom: 20px
+			margin-top: 20px
+			font-weight: 900
+			font-size: 14px
+			line-height: 20px
+			text-transform: uppercase
+		.posts
+			&-list
+				padding: 0
+				margin: 0
+				list-style: none
+	.post
+		padding: 17px 25px 19px 25px
+		margin: 0
+		border-top: 1px solid  #D9DADB
+		min-height: 100px
+		&:nth-child(even)
+			background-color: #F5F5F5
+			
+		.category-name
+			font-weight: 900
+			font-size: 12px
+			line-height: 15px
+			text-transform: uppercase
+		&-title
+			min-height: 40px
+			font-size: 14px
+			line-height: 20px
+			font-weight: normal
+			margin-bottom: 0
+			margin-top: 8px

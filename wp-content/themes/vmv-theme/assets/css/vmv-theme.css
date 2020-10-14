@@ -17,6 +17,11 @@ body {
   font-size: 14px;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .container {
   max-width: 1140px;
   width: 90%;
@@ -109,7 +114,6 @@ body {
 }
 
 .hero {
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -152,6 +156,7 @@ body {
   top: 0;
   bottom: 0;
   right: 0;
+  height: 100%;
   z-index: -2;
 }
 
@@ -221,4 +226,47 @@ body {
 .hero .right {
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
+}
+
+.hero .right .recommend {
+  margin-left: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.hero .right .posts-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.hero .post {
+  padding: 17px 25px 19px 25px;
+  margin: 0;
+  border-top: 1px solid  #D9DADB;
+  min-height: 100px;
+}
+
+.hero .post:nth-child(even) {
+  background-color: #F5F5F5;
+}
+
+.hero .post .category-name {
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.hero .post-title {
+  min-height: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 8px;
 }
