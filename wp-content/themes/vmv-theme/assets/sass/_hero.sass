@@ -1,0 +1,39 @@
+.hero
+	border: 1px solid red
+	display: flex
+	overflow: hidden
+	border-radius: 10px
+	.left
+		flex-basis: 75%
+		position: relative
+		padding: 55px 55px 100px 55px
+		min-height: 570px
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		.post-thumb
+			position: absolute
+			left: 0
+			top: 0
+			bottom: 0
+			right: 0
+			z-index: -1
+		.author
+			display: flex
+			align-items: center
+			text-decoration: none
+			&-bio
+				margin-left: 10px
+			&-name
+				display: block
+				font-size: 14px
+				line-height: 20px
+				color: rgba(#fff, 0.85)
+			&-rank
+				color: rgba(#fff, 0.4)
+		.avatar
+			width: 45px
+			height: 45px
+			border-radius: 50%
+	.right
+		flex-basis: 25%

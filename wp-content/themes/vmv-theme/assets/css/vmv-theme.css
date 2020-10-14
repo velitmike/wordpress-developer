@@ -17,6 +17,12 @@ body {
   font-size: 14px;
 }
 
+.container {
+  max-width: 1140px;
+  width: 90%;
+  margin: auto;
+}
+
 .header {
   background-color: #262D33;
   padding-top: 15px;
@@ -102,8 +108,74 @@ body {
   cursor: pointer;
 }
 
-.container {
-  max-width: 1140px;
-  width: 90%;
-  margin: auto;
+.hero {
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.hero .left {
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+  position: relative;
+  padding: 55px 55px 100px 55px;
+  min-height: 570px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero .left .post-thumb {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.hero .left .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.hero .left .author-bio {
+  margin-left: 10px;
+}
+
+.hero .left .author-name {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.hero .left .author-rank {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.hero .left .avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.hero .right {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
 }
