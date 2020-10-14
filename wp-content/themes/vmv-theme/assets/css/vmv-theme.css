@@ -205,6 +205,19 @@ body {
   margin-bottom: 50px;
 }
 
+.hero .left .more {
+  display: inline-block;
+  color: #ffffff;
+  padding: 10px 20px;
+  padding-right: 50px;
+  background: #4592FF;
+  border-radius: 20px;
+  text-decoration: none;
+  background-image: url("../images/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center right 20px;
+}
+
 .hero .right {
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
