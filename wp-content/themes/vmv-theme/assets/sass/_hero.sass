@@ -1,5 +1,15 @@
 .front-page-header
 	background-color: #262D33
+	position: relative
+	&::after
+		content: ""
+		position: absolute
+		bottom: 0
+		left: 0
+		background-color: #E5E5E5
+		width: 100%
+		height: 20%
+		z-index: 0
 .hero
 	// border: 1px solid red
 	display: flex
@@ -7,6 +17,8 @@
 	border-radius: 10px
 	min-height: 570px
 	background-color: #fff
+	position: relative
+	z-index: 1
 	.left
 		flex-basis: 75%
 		position: relative
@@ -99,11 +111,10 @@
 	.post
 		padding: 17px 25px 19px 25px
 		margin: 0
-		border-top: 1px solid  #D9DADB
+		border-top: 1px solid	#D9DADB
 		min-height: 100px
-		&:nth-child(even)
+		&:hover
 			background-color: #F5F5F5
-			
 		.category-name
 			font-weight: 900
 			font-size: 12px
