@@ -5,6 +5,8 @@ if ( ! function_exists( 'vmv_theme_setup' ) ) :
 function vmv_theme_setup() {
 	// Добавление тега title
 	add_theme_support( 'title-tag' );
+	// Добавления миниатюр
+	add_theme_support( 'post-thumbnails', array( 'post' ) );
 	// Добавление пользоватьского логотипа
 	add_theme_support( 'custom-logo', [
 			'width'       => 163,

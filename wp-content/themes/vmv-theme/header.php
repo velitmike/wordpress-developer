@@ -11,7 +11,6 @@
 <header class="header">
 	<div class="container">
 		<div class="header-wrapper">
-			<!-- <img src="<?php echo get_template_directory_uri() . '/assets/images/logo.png'?>" alt="logo"> -->
 			<?php
 				if( has_custom_logo() ){
 						// логотип есть выводим его
