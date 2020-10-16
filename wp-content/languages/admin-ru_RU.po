@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.5.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-12 14:35:25+0000\n"
+"PO-Revision-Date: 2020-10-15 14:14:27+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1305,11 +1305,11 @@ msgstr "<a href=\"https://ru.wordpress.org/support/article/media-add-new-screen/
 
 #: wp-admin/users.php:75
 msgid "<a href=\"https://wordpress.org/support/article/roles-and-capabilities/\">Descriptions of Roles and Capabilities</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/roles-and-capabilities/\">Описание ролей и возможностей</a>"
+msgstr "<a href=\"https://ru.wordpress.org/support/article/roles-and-capabilities/\">Описание ролей и возможностей</a>"
 
 #: wp-admin/users.php:74
 msgid "<a href=\"https://wordpress.org/support/article/users-screen/\">Documentation on Managing Users</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/users-screen/\">Документация по управлению пользователями</a>"
+msgstr "<a href=\"https://ru.wordpress.org/support/article/users-screen/\">Документация по управлению пользователями</a>"
 
 #: wp-admin/user-edit.php:323
 msgid "<a href=\"https://wordpress.org/support/article/keyboard-shortcuts/\" target=\"_blank\">More information</a>"
@@ -1321,7 +1321,7 @@ msgstr "<a href=\"https://wordpress.org/support/article/users-your-profile-scree
 
 #: wp-admin/options-media.php:37
 msgid "<a href=\"https://wordpress.org/support/article/settings-media-screen/\">Documentation on Media Settings</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/settings-media-screen/\">Документация по настройкам медиатеки</a>"
+msgstr "<a href=\"https://ru.wordpress.org/support/article/settings-media-screen/\">Документация по настройкам медиатеки</a>"
 
 #: wp-admin/widgets.php:83
 msgid "<a href=\"https://wordpress.org/support/article/appearance-widgets-screen/\">Documentation on Widgets</a>"
