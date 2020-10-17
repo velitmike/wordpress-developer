@@ -17,10 +17,10 @@
 						setup_postdata( $post );
 						?>
 				<!-- выводим записи	-->
-			<img src="<?php the_post_thumbnail_url()?>" alt="" class="post-thumb">
+			<img src="<?php the_post_thumbnail_url()?>" alt="Фото: Компьтеры" class="post-thumb">
 			<?php $author_id = get_the_author_meta('ID'); ?>
 			<a href="<?php echo get_author_posts_url($author_id)?>" class="author">
-			<img src="<?php echo get_avatar_url($author_id)?>" alt="" class="avatar">
+			<img src="<?php echo get_avatar_url($author_id)?>" alt="Михаил Велитченко" class="avatar">
 			<div class="author-bio">
 				<span class="author-name"><?php the_author(); ?></span>
 				<span class="author-rank">Должность</span>
@@ -101,7 +101,7 @@
 									<a class="article-permalink" href="<?php echo get_the_permalink( )?>">
 										<h4 class="article-title"><?php echo mb_strimwidth(get_the_title(), 0, 50, '...'); ?></h4>
 									</a>
-									<img width="65" height="65" src="<?php the_post_thumbnail_url(null, 'thumbnail')?>" alt="">	
+									<img width="65" height="65" src="<?php the_post_thumbnail_url(null, 'thumbnail')?>" alt="Миниатюры">	
 								</li>
 									<?php 	
 											}
