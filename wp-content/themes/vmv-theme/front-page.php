@@ -147,20 +147,20 @@
 			switch ($cnt) {
 				 // Выводим первый пост
     case '1': ?>
-    <li class="article-grid-item">
+    <li class="article-grid-item article-grid-item-1">
       <a href="<?php the_permalink() ?>" class="article-grid-permalink">
         <span class="category-name"
           ><?php $category = get_the_category(); 
 			echo $category[0]->name;; ?></span
         >
         <h4 class="article-grid-title">
-          <?php echo mb_strimwidth(get_the_title(), 0, 50, '...');?>
+          <?php echo mb_strimwidth(get_the_title(), 0, 60, '...');?>
         </h4>
         <p class="article-grid-excerpt">
-          <?php echo get_the_excerpt() ?>
+          <?php echo mb_strimwidth(get_the_excerpt(), 0, 200, '...'); ?>
         </p>
         <div class="article-grid-info">
-          <div class="auhtor">
+          <div class="author">
             <?php $author_id = get_the_author_meta('ID'); ?>
             <img
               src="<?php echo get_avatar_url($author_id)?>"
@@ -169,7 +169,7 @@
             />
             <span class="author-name"
               ><strong><?php the_author()?></strong> :
-              <?php the_author_meta('description')?>
+              <?php echo mb_strimwidth(get_the_author_meta('description'), 0, 26, '...');?>
             </span>
           </div>
           <div class="comments">
@@ -191,7 +191,6 @@
 							// Выводим второй пост
 							case '2': ?>
     <li class="article-grid-item article-grid-item-2">
-			<img src="<?php echo get_the_post_thumbnail_url()?>" alt="Миниатюры" class="article-grid-thumb">
 			<a href="<?php the_permalink() ?>" class="article-grid-permalink">
 			<span class="tag">
 				<?php $posttags = get_the_tags();
