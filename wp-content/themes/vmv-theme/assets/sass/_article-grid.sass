@@ -21,17 +21,8 @@
 			background-color: #fff
 			&-1
 				grid-area: 1 / 1 / 2 / 3
-				padding: 35px 35px 13px 35px
+				padding: 35px 35px 53px 35px
 				position: relative
-				&:after
-					content: ''
-					width: 100%
-					height: 1px
-					position: absolute
-					bottom: 56px
-					left: 0
-					// background-color: red
-					background-color: #D9DADB
 				.category-name
 					font-weight: 900
 					font-size: 12px
@@ -52,8 +43,14 @@
 						font-size: 14px
 						line-height: 20px
 						width: 300px
-						margin-bottom: 30px
+						margin-bottom: 40px
 					&-info
+						position: absolute
+						bottom: 0
+						left: 0
+						right: 0
+						padding: 15px 35px
+						border-top: 1px solid #D9DADB
 						display: flex
 						align-items: center
 						justify-content: space-between
