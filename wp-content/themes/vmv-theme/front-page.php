@@ -97,8 +97,8 @@
 						global $post;
 						// объявляем глобальную прерменную 
 						$myposts = get_posts([
-							'numberposts' =>
-		4, 'category_name' => 'articles', ]); 
+							'numberposts' => 4,
+							'category_name' => 'articles', ]); 
 		// Проверяем, есть ли посты?
 		 if($myposts) { 
 			 // если есть, запускаем цикл 
@@ -191,6 +191,7 @@
 							// Выводим второй пост
 							case '2': ?>
     <li class="article-grid-item article-grid-item-2">
+			<img src="<?php echo get_the_post_thumbnail_url()?>" alt="" class="article-grid-thrumb">
 			<a href="<?php the_permalink() ?>" class="article-grid-permalink">
 			<span class="tag">
 				<?php $posttags = get_the_tags();
@@ -202,31 +203,38 @@
         <span class="category-name"
           ><?php $category = get_the_category(); echo $category[0]->name;; ?></span>
         <h4 class="article-grid-title">
-          <?php echo mb_strimwidth(get_the_title(), 0, 50, '...');?>
+          <?php the_title()?>
         </h4>
         <div class="article-grid-info">
-          <div class="auhtor">
+          <div class="author">
             <?php $author_id = get_the_author_meta('ID'); ?>
-            <img
+              <img
               src="<?php echo get_avatar_url($author_id)?>"
               alt="Михаил Велитченко"
-              class="author-avatar"
-            />
-            <span class="author-name"
-              ><strong><?php the_author()?></strong> :
-              <?php the_author_meta('description')?>
-            </span>
-          </div>
-          <div class="comments">
-            <img
-              src="<?php echo get_template_directory_uri(  ) . '/assets/images/comment.svg'?>"
-              alt="Icon: Комментарии"
-              class="comments-icon"
-            />
-            <span class="comments-counter"
-              ><?php comments_number('0', '1', '%')?></span
-            >
-          </div>
+              class="author-avatar"/>	
+								
+							<div class="author-info">
+								<span class="author-name"><strong><?php the_author()?></strong></span>
+								<span class="date"><?php the_time('j F')?></span>
+								<div class="comments">
+									<img
+										src="<?php echo get_template_directory_uri(  ) . '/assets/images/comment-white.svg'?>"
+										alt="Icon: Комментарии"
+										class="comments-icon"
+									/>
+									<span class="comments-counter"
+										><?php comments_number('0', '1', '%')?></span
+									>						
+								</div>
+								<div class="likes">
+									<img src="<?php echo get_template_directory_uri(  ) . '/assets/images/heart.svg'?>" alt="icon: like" class="likes-icon">
+										<span class="likes-counter"
+										><?php comments_number('0', '1', '%')?></span
+										>						
+								</div>
+							</div>
+							<!-- /.author-info -->    
+					</div>
         </div>
       </a>
     </li>
