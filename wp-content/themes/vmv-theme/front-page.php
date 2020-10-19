@@ -247,7 +247,7 @@
 				<a href="<?php the_permalink() ?>" class="article-grid-permalink">
 				<img src="<?php echo get_the_post_thumbnail_url()?>" alt="Миниатюры" class="article-grid-thumb">
 				<h4 class="article-grid-title">
-				<?php echo mb_strimwidth(get_the_title(), 0, 50, '...');?>
+				<?php echo the_title()?>
 				</h4>
 				</a>
 			</li>
@@ -259,10 +259,10 @@
 				<li class="article-grid-item article-grid-item-default">
 				<a href="<?php the_permalink() ?>" class="article-grid-permalink">
 						<h4 class="article-grid-title">
-						<?php echo mb_strimwidth(get_the_title(), 0, 50, '...');?>
+						<?php echo mb_strimwidth(get_the_title(), 0, 33, '...');?>
 						</h4>
 						<p class="article-grid-excerpt">
-            <?php echo get_the_excerpt() ?>
+            <?php echo mb_strimwidth(get_the_excerpt(), 0, 76, '...') ?>
 						</p>
 						<span class="article-date"><?php the_time('j F Y')?></span>
 				</a>

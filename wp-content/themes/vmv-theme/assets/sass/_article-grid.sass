@@ -8,7 +8,9 @@
 		grid-template-columns: repeat(3, 1fr)
 		// grid-template-rows: 370px repeat(2, 170px)
 		// grid-template-rows: 2fr repeat(2, 1fr)
-		grid-template-rows: minmax(min-content, max-content) repeat(2, 1fr)
+		// grid-template-rows: minmax(min-content, max-content) repeat(2, 1fr)
+		// grid-template-rows: minmax(min-content, max-content) repeat(2, 200px)
+		grid-template-rows: minmax(min-content, max-content) minmax(200px, max-content) minmax(200px, max-content)
 		grid-column-gap: 30px
 		grid-row-gap: 30px
 		&-permalink
@@ -163,3 +165,41 @@
 						margin-left: 5px
 			&-3
 				grid-area: 2 / 1 / 4 / 2
+				.article
+					&-thumb
+						height: 275px
+						object-fit: cover
+						width: 100%
+					&-grid
+						&-title
+							padding: 15px 25px 35px
+							font-family: Roboto Slab
+							font-style: normal
+							font-weight: bold
+							font-size: 16px
+							line-height: 25px
+							margin: 0
+			&-default				
+				position: relative
+				.article
+						&-grid
+							&-permalink
+								padding: 25px 25px 30px
+								position: absolute
+								width: 100%
+								height: 100%
+								display: flex
+								flex-direction: column
+								justify-content: space-between
+								align-items: flex-start
+							&-title
+								font-family: Roboto Slab
+								font-style: normal
+								font-weight: bold
+								font-size: 16px
+								line-height: 25px
+								margin: 0
+								margin-bottom: 5px
+							&-excerpt
+								margin: 0
+								margin-bottom: auto
