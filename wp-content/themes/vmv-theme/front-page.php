@@ -116,7 +116,8 @@
 		<?php
 		}
 		wp_reset_postdata();
-		?></ul>
+		?>
+		</ul>
 	<!--/.article-list  -->
 	<ul class="article-grid">
 		<?php
