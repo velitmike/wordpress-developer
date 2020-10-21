@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.5.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-15 14:14:27+0000\n"
+"PO-Revision-Date: 2020-10-18 12:55:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -402,10 +402,10 @@ msgstr "Обновить %s сейчас"
 
 #. translators: 1: Plugin name, 2: Version number.
 #. translators: 1: Theme name, 2: Version number.
-#: wp-admin/includes/class-wp-automatic-updater.php:1066
-#: wp-admin/includes/class-wp-automatic-updater.php:1084
-#: wp-admin/includes/class-wp-automatic-updater.php:1107
-#: wp-admin/includes/class-wp-automatic-updater.php:1125
+#: wp-admin/includes/class-wp-automatic-updater.php:1070
+#: wp-admin/includes/class-wp-automatic-updater.php:1088
+#: wp-admin/includes/class-wp-automatic-updater.php:1111
+#: wp-admin/includes/class-wp-automatic-updater.php:1129
 msgid "- %1$s version %2$s"
 msgstr "- %1$s версия %2$s"
 
@@ -603,92 +603,92 @@ msgid "Error: You can&#8217;t reply to a comment on a draft post."
 msgstr "Ошибка: вы отвечаете на комментарий к черновику."
 
 #. translators: %s: Themes screen URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1149
+#: wp-admin/includes/class-wp-automatic-updater.php:1153
 msgid "To manage themes on your site, visit the Themes page: %s"
 msgstr "Для управления темами вашего сайта, посетите страницу тем: %s"
 
 #. translators: %s: Plugins screen URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1140
+#: wp-admin/includes/class-wp-automatic-updater.php:1144
 msgid "To manage plugins on your site, visit the Plugins page: %s"
 msgstr "Для управления плагинами вашего сайта, посетите страницу плагинов: %s"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1120
+#: wp-admin/includes/class-wp-automatic-updater.php:1124
 msgid "These themes are now up to date:"
 msgstr "Эти темы не требуют обновления:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1102
+#: wp-admin/includes/class-wp-automatic-updater.php:1106
 msgid "These plugins are now up to date:"
 msgstr "Эти плагины не требуют обновления:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1079
+#: wp-admin/includes/class-wp-automatic-updater.php:1083
 msgid "These themes failed to update:"
 msgstr "Следующие темы не удалось обновить:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1061
+#: wp-admin/includes/class-wp-automatic-updater.php:1065
 msgid "These plugins failed to update:"
 msgstr "Следующие плагины не удалось обновить:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1056
+#: wp-admin/includes/class-wp-automatic-updater.php:1060
 msgid "Please check your site now. It’s possible that everything is working. If there are updates available, you should update."
 msgstr "Проверьте сейчас свой сайт. Вполне возможно, что всё работает. Если он предложит обновиться, сделайте это."
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1046
+#: wp-admin/includes/class-wp-automatic-updater.php:1050
 msgid "Howdy! Themes failed to update on your site at %s."
 msgstr "Привет! Обновление тем на вашем сайте (%s) не удалось."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1043
+#: wp-admin/includes/class-wp-automatic-updater.php:1047
 msgid "[%s] Some themes have failed to update"
 msgstr "[%s] Не удалась попытка обновления некоторых тем"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1038
+#: wp-admin/includes/class-wp-automatic-updater.php:1042
 msgid "Howdy! Plugins failed to update on your site at %s."
 msgstr "Привет! Обновление плагинов на вашем сайте (%s) не удалось."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1035
+#: wp-admin/includes/class-wp-automatic-updater.php:1039
 msgid "[%s] Some plugins have failed to update"
 msgstr "[%s] Не удалась попытка обновления некоторых плагинов"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1030
+#: wp-admin/includes/class-wp-automatic-updater.php:1034
 msgid "Howdy! Plugins and themes failed to update on your site at %s."
 msgstr "Привет! Обновление плагинов и тем на вашем сайте (%s) не удалось."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1027
+#: wp-admin/includes/class-wp-automatic-updater.php:1031
 msgid "[%s] Some plugins and themes have failed to update"
 msgstr "[%s] Не удалась попытка обновления некоторых плагинов и тем"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1017
+#: wp-admin/includes/class-wp-automatic-updater.php:1021
 msgid "Howdy! Some themes have automatically updated to their latest versions on your site at %s. No further action is needed on your part."
 msgstr "Привет! Некоторые темы были автоматически обновлены до их последней версии на вашем сайте %s. С вашей стороны действий не требуется."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1014
+#: wp-admin/includes/class-wp-automatic-updater.php:1018
 msgid "[%s] Some themes were automatically updated"
 msgstr "[%s] Темы были обновлены автоматически"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1009
+#: wp-admin/includes/class-wp-automatic-updater.php:1013
 msgid "Howdy! Some plugins have automatically updated to their latest versions on your site at %s. No further action is needed on your part."
 msgstr "Привет! Некоторые плагины были автоматически обновлены до их последней версии на вашем сайте %s. С вашей стороны действий не требуется."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1006
+#: wp-admin/includes/class-wp-automatic-updater.php:1010
 msgid "[%s] Some plugins were automatically updated"
 msgstr "[%s] Плагины были обновлены автоматически"
 
 #. translators: %s: Home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1001
+#: wp-admin/includes/class-wp-automatic-updater.php:1005
 msgid "Howdy! Some plugins and themes have automatically updated to their latest versions on your site at %s. No further action is needed on your part."
 msgstr "Привет! Некоторые плагины и темы были автоматически обновлены до их последней версии на вашем сайте %s. С вашей стороны действий не требуется."
 
 #. translators: %s: Site title.
-#: wp-admin/includes/class-wp-automatic-updater.php:998
+#: wp-admin/includes/class-wp-automatic-updater.php:1002
 msgid "[%s] Some plugins and themes have automatically updated"
 msgstr "[%s] Плагины и темы были обновлены автоматически"
 
@@ -1313,11 +1313,11 @@ msgstr "<a href=\"https://ru.wordpress.org/support/article/users-screen/\">До�
 
 #: wp-admin/user-edit.php:323
 msgid "<a href=\"https://wordpress.org/support/article/keyboard-shortcuts/\" target=\"_blank\">More information</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/keyboard-shortcuts/\" target=\"_blank\">Дополнительная информация</a>"
+msgstr "<a href=\"https://ru.wordpress.org/support/article/keyboard-shortcuts/\" target=\"_blank\">Дополнительная информация</a>"
 
 #: wp-admin/user-edit.php:67
 msgid "<a href=\"https://wordpress.org/support/article/users-your-profile-screen/\">Documentation on User Profiles</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/users-your-profile-screen/\">Документация по профилям пользователей</a>"
+msgstr "<a href=\"https://ru.wordpress.org/support/article/users-your-profile-screen/\">Документация по профилям пользователей</a>"
 
 #: wp-admin/options-media.php:37
 msgid "<a href=\"https://wordpress.org/support/article/settings-media-screen/\">Documentation on Media Settings</a>"
@@ -1325,7 +1325,7 @@ msgstr "<a href=\"https://ru.wordpress.org/support/article/settings-media-screen
 
 #: wp-admin/widgets.php:83
 msgid "<a href=\"https://wordpress.org/support/article/appearance-widgets-screen/\">Documentation on Widgets</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/appearance-widgets-screen/\">Документация по виджетам</a>"
+msgstr "<a href=\"https://ru.wordpress.org/support/article/appearance-widgets-screen/\">Документация по виджетам</a>"
 
 #: wp-admin/import.php:31
 msgid "<a href=\"https://wordpress.org/support/article/tools-import-screen/\">Documentation on Import</a>"
@@ -1374,7 +1374,7 @@ msgstr "<a href=\"https://wordpress.org/support/article/edit-media/\">Докум
 
 #: wp-admin/edit-comments.php:196
 msgid "<a href=\"https://wordpress.org/support/article/keyboard-shortcuts/\">Documentation on Keyboard Shortcuts</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/keyboard-shortcuts/\">Документация по горячим клавишам</a>"
+msgstr "<a href=\"https://ru.wordpress.org/support/article/keyboard-shortcuts/\">Документация по горячим клавишам</a>"
 
 #: wp-admin/edit-comments.php:195
 msgid "<a href=\"https://wordpress.org/support/article/comment-spam/\">Documentation on Comment Spam</a>"
@@ -1893,13 +1893,13 @@ msgstr "Определение %1$s было либо включено конс�
 
 #. translators: Background update finished notification email subject. %s: Site
 #. title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1286
+#: wp-admin/includes/class-wp-automatic-updater.php:1290
 msgid "[%s] Background Update Finished"
 msgstr "[%s] Фоновое обновление завершено"
 
 #. translators: Background update failed notification email subject. %s: Site
 #. title.
-#: wp-admin/includes/class-wp-automatic-updater.php:1283
+#: wp-admin/includes/class-wp-automatic-updater.php:1287
 msgid "[%s] Background Update Failed"
 msgstr "[%s] Фоновое обновление не удалось"
 
@@ -6912,7 +6912,7 @@ msgstr ""
 "Команда сайта «###SITENAME###»\n"
 "###SITEURL###"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1290
+#: wp-admin/includes/class-wp-automatic-updater.php:1294
 msgid ""
 "UPDATE LOG\n"
 "=========="
@@ -6920,7 +6920,7 @@ msgstr ""
 "ЖУРНАЛ ОБНОВЛЕНИЯ\n"
 "================="
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1267
+#: wp-admin/includes/class-wp-automatic-updater.php:1271
 msgid ""
 "BETA TESTING?\n"
 "=============\n"
@@ -7583,36 +7583,36 @@ msgid "This screen shows an individual user all of their sites in this network, 
 msgstr "Этот экран показывает пользователю все его сайты в этой сети, а также позволяет выбрать основной сайт. С помощью ссылок под каждым сайтом пользователь может перейти на внешнюю часть сайта или в консоль."
 
 #. translators: 1: Error code, 2: Error message.
-#: wp-admin/includes/class-wp-automatic-updater.php:1323
+#: wp-admin/includes/class-wp-automatic-updater.php:1327
 msgid "Error: [%1$s] %2$s"
 msgstr "Ошибка: [%1$s] %2$s"
 
 #. translators: 1: Error code, 2: Error message.
-#: wp-admin/includes/class-wp-automatic-updater.php:1320
+#: wp-admin/includes/class-wp-automatic-updater.php:1324
 msgid "Rollback Error: [%1$s] %2$s"
 msgstr "Ошибка при откате: [%1$s] %2$s"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1249
+#: wp-admin/includes/class-wp-automatic-updater.php:1253
 msgid "The following translations failed to update:"
 msgstr "Следующие переводы не удалось обновить:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1248
+#: wp-admin/includes/class-wp-automatic-updater.php:1252
 msgid "The following themes failed to update:"
 msgstr "Следующие темы не удалось обновить:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1247
+#: wp-admin/includes/class-wp-automatic-updater.php:1251
 msgid "The following plugins failed to update:"
 msgstr "Следующие плагины не удалось обновить:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1235
+#: wp-admin/includes/class-wp-automatic-updater.php:1239
 msgid "The following translations were successfully updated:"
 msgstr "Следующие переводы успешно обновлены:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1234
+#: wp-admin/includes/class-wp-automatic-updater.php:1238
 msgid "The following themes were successfully updated:"
 msgstr "Следующие темы успешно обновлены:"
 
-#: wp-admin/includes/class-wp-automatic-updater.php:1233
+#: wp-admin/includes/class-wp-automatic-updater.php:1237
 msgid "The following plugins were successfully updated:"
 msgstr "Следующие плагины успешно обновлены:"
 
@@ -7704,27 +7704,27 @@ msgid "Activity"
 msgstr "Активность"
 
 #. translators: %s: Name of plugin / theme / translation.
-#: wp-admin/includes/class-wp-automatic-updater.php:1256
+#: wp-admin/includes/class-wp-automatic-updater.php:1260
 msgid "FAILED: %s"
 msgstr "ОШИБКА: %s"
 
 #. translators: %s: Name of plugin / theme / translation.
-#: wp-admin/includes/class-wp-automatic-updater.php:1241
+#: wp-admin/includes/class-wp-automatic-updater.php:1245
 msgid "SUCCESS: %s"
 msgstr "УСПЕХ: %s"
 
 #. translators: %s: WordPress version.
-#: wp-admin/includes/class-wp-automatic-updater.php:1219
+#: wp-admin/includes/class-wp-automatic-updater.php:1223
 msgid "FAILED: WordPress failed to update to %s"
 msgstr "ОШИБКА: Не удалось обновить WordPress до версии %s"
 
 #. translators: %s: WordPress version.
-#: wp-admin/includes/class-wp-automatic-updater.php:1216
+#: wp-admin/includes/class-wp-automatic-updater.php:1220
 msgid "SUCCESS: WordPress was successfully updated to %s"
 msgstr "УСПЕХ: WordPress успешно обновлён до версии %s"
 
 #. translators: %s: Network home URL.
-#: wp-admin/includes/class-wp-automatic-updater.php:1209
+#: wp-admin/includes/class-wp-automatic-updater.php:1213
 msgid "WordPress site: %s"
 msgstr "Сайт на WordPress: %s"
 
@@ -7777,7 +7777,7 @@ msgid "We have some data that describes the error your site encountered."
 msgstr "У нас есть данные с описанием ошибки, произошедшей на вашем сайте."
 
 #: wp-admin/includes/class-wp-automatic-updater.php:806
-#: wp-admin/includes/class-wp-automatic-updater.php:1158
+#: wp-admin/includes/class-wp-automatic-updater.php:1162
 msgid "The WordPress Team"
 msgstr "Команда WordPress"
 
@@ -7786,7 +7786,7 @@ msgid "You also have some plugins or themes with updates available. Update them 
 msgstr "Также доступны обновления нескольких плагинов или тем. Обновите их:"
 
 #: wp-admin/includes/class-wp-automatic-updater.php:787
-#: wp-admin/includes/class-wp-automatic-updater.php:1156
+#: wp-admin/includes/class-wp-automatic-updater.php:1160
 msgid "If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help."
 msgstr "Если вы столкнётесь с проблемами и вам понадобится поддержка, вам помогут волонтёры на форумах WordPress.org."
 
