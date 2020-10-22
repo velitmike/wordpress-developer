@@ -25,11 +25,7 @@ endif;
 add_action('after_setup_theme', 'vmv_theme_setup');
 
 /**
-<<<<<<< HEAD
- * Подключения сайдбара (widget area).
-=======
- * Подключаем сайдбара (widget area).
->>>>>>> 6d19668b78bc6f784710b8ab0a263f7be25ac1c6
+ * Подключаем сайдбар (widget area).
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
@@ -39,6 +35,17 @@ function vmv_theme_widgets_init()
 		array(
 			'name'          => esc_html__('Sidebar on main', 'vmv_theme'),
 			'id'            => 'main-sidebar',
+			'description'   => esc_html__('Add widgets here.', 'vmv_theme'),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+	register_sidebar(
+		array(
+			'name'          => esc_html__('Sidebar-two', 'vmv_theme'),
+			'id'            => 'two-sidebar',
 			'description'   => esc_html__('Add widgets here.', 'vmv_theme'),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
@@ -64,7 +71,7 @@ class Downloader_Widget extends WP_Widget
 		parent::__construct(
 			'downloader_widget', // ID виджета, если не указать (оставить ''), то ID будет равен названию класса в нижнем регистре: downloader_widget
 			'Полезные файлы',
-			array('description' => 'Файлы для скачивания', 'classname' => 'downloader_widget',)
+			array('description' => 'Файлы для скачивания', 'classname' => 'widget-downloader',)
 		);
 
 		// скрипты/стили виджета, только если он активен
@@ -95,7 +102,9 @@ class Downloader_Widget extends WP_Widget
 			echo '<p>' . $description . '</p>';
 		}
 		if (!empty($link)) {
-			echo '<a href="' . $link . '">Скачать</a>';
+			echo '<a target="_blank" class="widget-link" href="' . $link . '">
+			<img class="widget-link-icon" src="' . get_template_directory_uri() . '/assets/images/download.svg">
+			Скачать</a>';
 		}
 		// echo __('Hello, World!', 'text_domain');
 		echo $args['after_widget'];
@@ -148,7 +157,7 @@ class Downloader_Widget extends WP_Widget
 	}
 
 	// скрипт виджета
-	function add_my_widget_scripts()
+	function add_downloader_widget_scripts()
 	{
 		// фильтр чтобы можно было отключить скрипты
 		if (!apply_filters('show_my_widget_script', true, $this->id_base))
@@ -160,7 +169,7 @@ class Downloader_Widget extends WP_Widget
 	}
 
 	// стили виджета
-	function add_my_widget_style()
+	function add_downloader_widget_style()
 	{
 		// фильтр чтобы можно было отключить стили
 		if (!apply_filters('show_my_widget_style', true, $this->id_base))
