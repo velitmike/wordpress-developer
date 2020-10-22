@@ -106,7 +106,7 @@
 							<?php echo mb_strimwidth(get_the_title(), 0, 50, '...'); ?>
 						</h4>
 					</a>
-					<img width="65" height="65" src="<?php the_post_thumbnail_url(null, 'thumbnail') ?>" alt="Миниатюры" />
+					<img class="article-thumb" src="<?php the_post_thumbnail_url(null, 'thumbnail') ?>" alt="Миниатюры" />
 				</li>
 			<?php
 			}
