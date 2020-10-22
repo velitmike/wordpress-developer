@@ -356,6 +356,11 @@ body {
   display: block;
 }
 
+.article-thumb {
+  width: 65px;
+  height: 65px;
+}
+
 .article-permalink {
   text-decoration: none;
   color: #ffffff;
@@ -437,6 +442,17 @@ body {
   line-height: 15px;
   text-transform: uppercase;
   color: #6E99AE;
+}
+
+.article-grid-item-1 .article-grid-thumb {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .article-grid-item-1 .article-grid-title {
@@ -704,7 +720,7 @@ body {
           align-items: flex-start;
 }
 
-.article-grid-item-default .article-grid-title {
+.article-grid-item-default .article-grid-permalink-title {
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: bold;
@@ -714,7 +730,7 @@ body {
   margin-bottom: 5px;
 }
 
-.article-grid-item-default .article-grid-excerpt {
+.article-grid-item-default .article-grid-permalink-excerpt {
   margin: 0;
   margin-bottom: auto;
 }
