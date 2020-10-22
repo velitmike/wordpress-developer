@@ -25,7 +25,11 @@ endif;
 add_action('after_setup_theme', 'vmv_theme_setup');
 
 /**
+<<<<<<< HEAD
  * Подключения сайдбара (widget area).
+=======
+ * Подключаем сайдбара (widget area).
+>>>>>>> 6d19668b78bc6f784710b8ab0a263f7be25ac1c6
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
@@ -33,9 +37,9 @@ function vmv_theme_widgets_init()
 {
 	register_sidebar(
 		array(
-			'name'          => esc_html__('Sidebar in main', 'vmv-theme'),
+			'name'          => esc_html__('Sidebar on main', 'vmv_theme'),
 			'id'            => 'main-sidebar',
-			'description'   => esc_html__('Add widgets here.', 'vmv-theme'),
+			'description'   => esc_html__('Add widgets here.', 'vmv_theme'),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
 			'before_title'  => '<h2 class="widget-title">',

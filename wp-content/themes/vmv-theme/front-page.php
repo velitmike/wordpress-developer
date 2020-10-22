@@ -7,8 +7,8 @@
 				global $post;
 				// объявляем глобальную прерменную 
 				$myposts = get_posts([
-					'numberposts' =>
-					1, 'category_name' => 'javascript, css, html, web-design',
+					'numberposts' => 1,
+					'category_name' => 'javascript, css, html, web-design',
 				]);
 				//  Проверяем, есть ли посты
 				if ($myposts) {
@@ -50,9 +50,9 @@
 					global $post;
 					// объявляем глобальную прерменную 
 					$myposts = get_posts([
-						'numberposts' =>
-						5, 'offset' => 1, 'category_name' => 'javascript, css, html,
-					web-design',
+						'numberposts' => 5,
+						'offset' => 1,
+						'category_name' => 'javascript, css, html, web-design',
 					]);
 					// Проверяем, есть ли посты? 
 					if ($myposts) {
@@ -116,7 +116,8 @@
 		<?php
 		}
 		wp_reset_postdata();
-		?></ul>
+		?>
+		</ul>
 	<!--/.article-list  -->
 	<ul class="article-grid">
 		<?php
@@ -125,8 +126,7 @@
 
 		$query = new WP_Query([
 			// Получаем 7 постов
-			'posts_per_page' =>
-			7,
+			'posts_per_page' =>	7,
 		]);
 		// провераем, если посты 
 		if ($query->have_posts()) {
