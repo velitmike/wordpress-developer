@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.5.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-18 12:55:34+0000\n"
+"PO-Revision-Date: 2020-10-22 09:11:35+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1109,31 +1109,31 @@ msgid "This localized version contains both the translation and various other lo
 msgstr "Локализованная версия содержит и перевод и разные другие исправления для локализации."
 
 #. translators: 1: Number of issues. 2: URL to Site Health screen.
-#: wp-admin/includes/dashboard.php:1851
+#: wp-admin/includes/dashboard.php:1853
 msgid "Take a look at the <strong>%1$d item</strong> on the <a href=\"%2$s\">Site Health screen</a>."
 msgid_plural "Take a look at the <strong>%1$d items</strong> on the <a href=\"%2$s\">Site Health screen</a>."
 msgstr[0] "Обратите внимание на <strong>%1$d элемент</strong> на экране <a href=\"%2$s\">«Здоровье сайта»</a>."
 msgstr[1] "Обратите внимание на <strong>%1$d элемента</strong> на экране <a href=\"%2$s\">«Здоровье сайта»</a>."
 msgstr[2] "Обратите внимание на <strong>%1$d элементов</strong> на экране <a href=\"%2$s\">«Здоровье сайта»</a>."
 
-#: wp-admin/includes/dashboard.php:1841
+#: wp-admin/includes/dashboard.php:1843
 msgid "Your site&#8217;s health is looking good, but there are still some things you can do to improve its performance and security."
 msgstr "Статус здоровья вашего сайта смотрится неплохо, но есть некоторые вещи, которые вы можете сделать для улучшения производительности и безопасности."
 
-#: wp-admin/includes/dashboard.php:1839
+#: wp-admin/includes/dashboard.php:1841
 msgid "Great job! Your site currently passes all site health checks."
 msgstr "Замечательно! Ваш сайт успешно прошел все тесты проверки состояния здоровья."
 
-#: wp-admin/includes/dashboard.php:1837
+#: wp-admin/includes/dashboard.php:1839
 msgid "Your site has critical issues that should be addressed as soon as possible to improve its performance and security."
 msgstr "На вашем сайте есть критические проблемы, которые стоит решить как можно быстрее, для улучшения безопасности и производительности вашего сайта."
 
 #. translators: %s: URL to Site Health screen.
-#: wp-admin/includes/dashboard.php:1829
+#: wp-admin/includes/dashboard.php:1831
 msgid "Site health checks will automatically run periodically to gather information about your site. You can also <a href=\"%s\">visit the Site Health screen</a> to gather information about your site now."
 msgstr "Проверка состояния здоровья сайта будет периодически запускаться и собирать информацию о вашем сайте. Можно перейти на экран <a href=\"%s\">«Здоровье сайта»</a>, чтобы сделать это сейчас."
 
-#: wp-admin/includes/dashboard.php:1817
+#: wp-admin/includes/dashboard.php:1819
 msgid "No information yet&hellip;"
 msgstr "Пока нет информации..."
 
@@ -1187,35 +1187,44 @@ msgstr "В корзине не найдено медиафайлов."
 
 #. translators: Date string for upcoming events. 1: Starting month, 2: Starting
 #. day, 3: Ending month, 4: Ending day, 5: Year.
-#: wp-admin/includes/class-wp-community-events.php:405
+#. translators: Date string for upcoming events. 1: Starting month, 2: Starting
+#. day, 3: Ending month, 4: Ending day, 5: Ending year.
+#: wp-admin/includes/class-wp-community-events.php:422
+#: wp-admin/js/dashboard.js:750
 msgid "%1$s %2$d – %3$s %4$d, %5$d"
 msgstr "%1$s %2$d – %3$s %4$d, %5$d"
 
 #. translators: Upcoming events year format. See https://www.php.net/date
-#: wp-admin/includes/class-wp-community-events.php:400
-#: wp-admin/includes/class-wp-community-events.php:410
+#: wp-admin/includes/class-wp-community-events.php:417
+#: wp-admin/includes/class-wp-community-events.php:427
+#: wp-admin/js/dashboard.js:763 wp-admin/js/dashboard.js:774
 msgctxt "upcoming events year format"
 msgid "Y"
 msgstr "Y"
 
 #. translators: Upcoming events day format. See https://www.php.net/date
-#: wp-admin/includes/class-wp-community-events.php:397
-#: wp-admin/includes/class-wp-community-events.php:398
-#: wp-admin/includes/class-wp-community-events.php:407
-#: wp-admin/includes/class-wp-community-events.php:409
+#: wp-admin/includes/class-wp-community-events.php:414
+#: wp-admin/includes/class-wp-community-events.php:415
+#: wp-admin/includes/class-wp-community-events.php:424
+#: wp-admin/includes/class-wp-community-events.php:426
+#: wp-admin/js/dashboard.js:761 wp-admin/js/dashboard.js:762
+#: wp-admin/js/dashboard.js:771 wp-admin/js/dashboard.js:773
 msgctxt "upcoming events day format"
 msgid "j"
 msgstr "j"
 
 #. translators: Date string for upcoming events. 1: Month, 2: Starting day, 3:
 #. Ending day, 4: Year.
-#: wp-admin/includes/class-wp-community-events.php:394
+#: wp-admin/includes/class-wp-community-events.php:411
+#: wp-admin/js/dashboard.js:748
 msgid "%1$s %2$d–%3$d, %4$d"
 msgstr "%1$s %2$d–%3$d, %4$d"
 
 #. translators: Upcoming events month format. See https://www.php.net/date
-#: wp-admin/includes/class-wp-community-events.php:388
-#: wp-admin/includes/class-wp-community-events.php:389
+#: wp-admin/includes/class-wp-community-events.php:405
+#: wp-admin/includes/class-wp-community-events.php:406
+#: wp-admin/js/dashboard.js:760 wp-admin/js/dashboard.js:770
+#: wp-admin/js/dashboard.js:772
 msgctxt "upcoming events month format"
 msgid "F"
 msgstr "F"
@@ -1354,7 +1363,7 @@ msgstr "<a href=\"https://ru.wordpress.org/support/article/pages-screen/\">До�
 
 #: wp-admin/edit-form-advanced.php:334
 msgid "<a href=\"https://wordpress.org/support/article/pages-add-new-screen/\">Documentation on Adding New Pages</a>"
-msgstr "<a href=\"https://wordpress.org/support/article/pages-add-new-screen/\">Документация по добавлению новых страниц</a>"
+msgstr "<a href=\"https://ru.wordpress.org/support/article/pages-add-new-screen/\">Документация по добавлению новых страниц</a>"
 
 #: wp-admin/edit-form-advanced.php:317
 msgid "<a href=\"https://wordpress.org/support/article/wordpress-editor/\">Documentation on Writing and Editing Posts</a>"
@@ -1397,7 +1406,7 @@ msgstr "<a href=\"https://wordpress.org/support/article/users-add-new-screen/\">
 msgid "This page can show you every detail about the configuration of your WordPress website. For any improvements that could be made, see the <a href=\"%s\">Site Health Status</a> page."
 msgstr "Эта страница показывает подробности о конфигурации вашего сайта WordPress. Если что-либо может быть улучшено, вы увидите это на <a href=\"%s\">странице состояния сайта</a>."
 
-#: wp-admin/includes/dashboard.php:1819 wp-admin/site-health-info.php:47
+#: wp-admin/includes/dashboard.php:1821 wp-admin/site-health-info.php:47
 #: wp-admin/site-health.php:52
 msgid "Results are still loading&hellip;"
 msgstr "Результаты всё ещё загружаются&hellip;"
@@ -1480,7 +1489,7 @@ msgstr "https://wordpress.org/support/article/giving-wordpress-its-own-directory
 msgid "<a href=\"https://wordpress.org/support/article/settings-general-screen/\">Documentation on General Settings</a>"
 msgstr "<a href=\"https://wordpress.org/support/article/settings-general-screen/\">Документация по общим настройкам</a>"
 
-#: wp-admin/includes/dashboard.php:1930
+#: wp-admin/includes/dashboard.php:1932
 msgid "https://wordpress.org/support/article/first-steps-with-wordpress/"
 msgstr "https://wordpress.org/support/article/first-steps-with-wordpress/"
 
@@ -1858,7 +1867,7 @@ msgstr "SQL сервер &mdash; ПО используемое WordPress для 
 msgid "PHP modules perform most of the tasks on the server that make your site run. Any changes to these must be made by your server administrator."
 msgstr "Расширения PHP выполняют многие задачи на сервере для обеспечения работы вашего сайта. Обычно любые изменения в них производятся системным администратором сервера."
 
-#: wp-admin/includes/dashboard.php:1747
+#: wp-admin/includes/dashboard.php:1749
 msgid "PHP is the programming language we use to build and maintain WordPress. Newer versions of PHP are both faster and more secure, so updating will have a positive effect on your site&#8217;s performance."
 msgstr "PHP — язык программирования, на основе которого создан WordPress. Новые версии PHP и быстрее и безопаснее, поэтому обновление окажет положительный эффект на производительность сайта."
 
@@ -3272,24 +3281,24 @@ msgstr "Вы не можете установить, потому что <a href
 msgid "You cannot install because <a href=\"%1$s\">WordPress %2$s</a> requires PHP version %3$s or higher. You are running version %4$s."
 msgstr "Вы не можете установить, потому что <a href=\"%1$s\">WordPress %2$s</a> требует PHP версии %3$s или новее. Ваша версия - %4$s."
 
-#: wp-admin/includes/dashboard.php:1913
+#: wp-admin/includes/dashboard.php:1915
 msgid "Set up your homepage"
 msgstr "Настройте главную страницу сайта"
 
 #: wp-admin/includes/class-wp-site-health.php:734
-#: wp-admin/includes/dashboard.php:1754
+#: wp-admin/includes/dashboard.php:1756
 msgid "Learn more about updating PHP"
 msgstr "Узнайте больше об обновлении PHP"
 
-#: wp-admin/includes/dashboard.php:1746
+#: wp-admin/includes/dashboard.php:1748
 msgid "What is PHP and how does it affect my site?"
 msgstr "Что такое PHP и как это влияет на мой сайт?"
 
-#: wp-admin/includes/dashboard.php:1740
+#: wp-admin/includes/dashboard.php:1742
 msgid "WordPress has detected that your site is running on an outdated version of PHP."
 msgstr "WordPress обнаружил, что вы используете устаревшую версию PHP."
 
-#: wp-admin/includes/dashboard.php:1738
+#: wp-admin/includes/dashboard.php:1740
 msgid "WordPress has detected that your site is running on an insecure version of PHP."
 msgstr "WordPress обнаружил, что вы используете небезопасную версию PHP."
 
@@ -4842,7 +4851,7 @@ msgid "Open"
 msgstr "открыты"
 
 #. translators: %s: Meetup organization documentation URL.
-#: wp-admin/includes/dashboard.php:1407
+#: wp-admin/includes/dashboard.php:1409
 msgid "There aren&#8217;t any events scheduled near you at the moment. Would you like to <a href=\"%s\">organize a WordPress event</a>?"
 msgstr "Мероприятий рядом с вами пока не запланировано. Хотите <a href=\"%s\">организовать</a>?"
 
@@ -4856,13 +4865,13 @@ msgstr "Редактировать пользователя %s"
 msgid "Edit widget: %s"
 msgstr "Редактировать виджет: %s"
 
-#: wp-admin/includes/dashboard.php:1399 wp-admin/includes/dashboard.php:1408
+#: wp-admin/includes/dashboard.php:1401 wp-admin/includes/dashboard.php:1410
 msgid "https://make.wordpress.org/community/handbook/meetup-organizer/welcome/"
 msgstr "https://make.wordpress.org/community/handbook/meetup-organizer/welcome/"
 
 #. translators: 1: The city the user searched for, 2: Meetup organization
 #. documentation URL.
-#: wp-admin/includes/dashboard.php:1397
+#: wp-admin/includes/dashboard.php:1399
 msgid "There aren&#8217;t any events scheduled near %1$s at the moment. Would you like to <a href=\"%2$s\">organize a WordPress event</a>?"
 msgstr "В настоящее время никаких мероприятий рядом с %1$s не запланировано. Хотите <a href=\"%2$s\">организовать что-то</a>?"
 
@@ -4897,17 +4906,20 @@ msgstr "Новости и мероприятия WordPress"
 
 #. translators: Date format for upcoming events on the dashboard. Include the
 #. day of the week. See https://www.php.net/date
-#: wp-admin/includes/class-wp-community-events.php:379
-#: wp-admin/includes/class-wp-community-events.php:384
+#. translators: Date format for upcoming events on the dashboard. Include the
+#. day of the week. See https://www.php.net/manual/datetime.format.php
+#: wp-admin/includes/class-wp-community-events.php:396
+#: wp-admin/includes/class-wp-community-events.php:401
+#: wp-admin/js/dashboard.js:746
 msgid "l, M j, Y"
 msgstr "l, M j, Y"
 
-#: wp-admin/includes/class-wp-community-events.php:122
+#: wp-admin/includes/class-wp-community-events.php:124
 msgid "Unknown API error."
 msgstr "Неизвестная ошибка API."
 
 #. translators: %d: Numeric HTTP status code, e.g. 400, 403, 500, 504, etc.
-#: wp-admin/includes/class-wp-community-events.php:117
+#: wp-admin/includes/class-wp-community-events.php:119
 msgid "Invalid API response code (%d)."
 msgstr "Неверный код ответа API (%d)"
 
@@ -5729,7 +5741,7 @@ msgstr "Шаблон даты"
 msgid "Taxonomy Template"
 msgstr "Шаблон таксономии"
 
-#: wp-admin/includes/dashboard.php:1633
+#: wp-admin/includes/dashboard.php:1635
 msgid "Dismiss the browser warning panel"
 msgstr "Скрыть панель с предупреждением о браузере"
 
@@ -7045,11 +7057,11 @@ msgstr "Имя пользователя может содержать тольк
 msgid "Enable full-height editor and distraction-free functionality."
 msgstr "Включить растягивание редактора по высоте и полноэкранный режим."
 
-#: wp-admin/includes/dashboard.php:1476
+#: wp-admin/includes/dashboard.php:1478
 msgid "https://planet.wordpress.org/feed/"
 msgstr "https://planet.wordpress.org/feed/"
 
-#: wp-admin/includes/dashboard.php:1467 wp-admin/index.php:88
+#: wp-admin/includes/dashboard.php:1469 wp-admin/index.php:88
 msgid "https://planet.wordpress.org/"
 msgstr "https://planet.wordpress.org/"
 
@@ -7419,11 +7431,11 @@ msgstr "Изменить видимость"
 msgid "Edit status"
 msgstr "Изменить статус"
 
-#: wp-admin/includes/dashboard.php:1925
+#: wp-admin/includes/dashboard.php:1927
 msgid "Manage menus"
 msgstr "Управление меню"
 
-#: wp-admin/includes/dashboard.php:1922
+#: wp-admin/includes/dashboard.php:1924
 msgid "Manage widgets"
 msgstr "Управление виджетами"
 
@@ -7476,12 +7488,12 @@ msgid "If you would like to see more themes to choose from, click on the &#8220;
 msgstr "Если вы хотели бы расширить выбор тем, нажмите на кнопку &#8220;Добавить новую&#8221;, и вы сможете посмотреть или найти дополнительные темы в <a href=\"%s\">каталоге WordPress</a>. Темы в каталоге WordPress создаются третьими лицами и совместимы с лицензией WordPress. Да, и они бесплатны!"
 
 #. translators: 1: Number of megabytes, 2: Percentage.
-#: wp-admin/includes/dashboard.php:1570
+#: wp-admin/includes/dashboard.php:1572
 msgid "%1$s MB (%2$s%%) Space Used"
 msgstr "%1$s МБ (%2$s%%) занято"
 
 #. translators: %s: Number of megabytes.
-#: wp-admin/includes/dashboard.php:1556
+#: wp-admin/includes/dashboard.php:1558
 msgid "%s MB Space Allowed"
 msgstr "%s МБ выделено"
 
@@ -7662,7 +7674,7 @@ msgstr "<strong>Активность</strong> &#8212; показывает за�
 msgid "<strong>Screen Options</strong> &mdash; Use the Screen Options tab to choose which Dashboard boxes to show."
 msgstr "<strong>Настройки экрана</strong> &#8212; используйте вкладку &laquo;Настройки экрана&raquo;, чтобы выбрать нужные блоки."
 
-#: wp-admin/includes/dashboard.php:1563 wp-admin/includes/dashboard.php:1578
+#: wp-admin/includes/dashboard.php:1565 wp-admin/includes/dashboard.php:1580
 msgid "Manage Uploads"
 msgstr "Управление файлами"
 
@@ -8605,15 +8617,15 @@ msgstr "Также можно выбрать цвет фона, нажав кн�
 msgid "You can choose whether or not your site will be crawled by robots, ping services, and spiders. If you want those services to ignore your site, click the checkbox next to &#8220;Discourage search engines from indexing this site&#8221; and click the Save Changes button at the bottom of the screen. Note that your privacy is not complete; your site is still visible on the web."
 msgstr "Вы можете выбрать, должен ли ваш сайт индексироваться роботами, сервисами уведомлений и веб-пауками. Если вы хотите, чтобы эти службы игнорировали ваш сайт, поставьте галочку &laquo;Попросить поисковые системы не индексировать сайт&raquo; и нажмите кнопку &laquo;Сохранить изменения&raquo; в нижней части экрана. Обратите внимание, что для полной приватности этого недостаточно; ваш сайт всё равно виден другим посетителям."
 
-#: wp-admin/includes/dashboard.php:1930
+#: wp-admin/includes/dashboard.php:1932
 msgid "Learn more about getting started"
 msgstr "Узнайте больше о работе с WordPress"
 
-#: wp-admin/includes/dashboard.php:1928
+#: wp-admin/includes/dashboard.php:1930
 msgid "Turn comments on or off"
 msgstr "Включите или выключите комментарии"
 
-#: wp-admin/includes/dashboard.php:1919
+#: wp-admin/includes/dashboard.php:1921
 msgid "More Actions"
 msgstr "Другие действия"
 
@@ -8697,49 +8709,49 @@ msgstr "Ваше имя пользователя на WordPress.org:"
 msgid "If you have marked plugins as favorites on WordPress.org, you can browse them here."
 msgstr "Если вы добавили плагины на WordPress.org в список любимых, здесь вы можете их просмотреть."
 
-#: wp-admin/includes/dashboard.php:1915
+#: wp-admin/includes/dashboard.php:1917
 msgid "View your site"
 msgstr "Просмотрите свой сайт"
 
-#: wp-admin/includes/dashboard.php:1912
+#: wp-admin/includes/dashboard.php:1914
 msgid "Add an About page"
 msgstr "Создайте страницу &laquo;Обо мне&raquo;"
 
-#: wp-admin/includes/dashboard.php:1911
+#: wp-admin/includes/dashboard.php:1913
 msgid "Write your first blog post"
 msgstr "Напишите свою первую запись"
 
-#: wp-admin/includes/dashboard.php:1909
+#: wp-admin/includes/dashboard.php:1911
 msgid "Add a blog post"
 msgstr "Добавьте запись в блог"
 
-#: wp-admin/includes/dashboard.php:1905 wp-admin/includes/dashboard.php:1908
+#: wp-admin/includes/dashboard.php:1907 wp-admin/includes/dashboard.php:1910
 msgid "Add additional pages"
 msgstr "Добавьте другие страницы"
 
-#: wp-admin/includes/dashboard.php:1904 wp-admin/includes/dashboard.php:1907
+#: wp-admin/includes/dashboard.php:1906 wp-admin/includes/dashboard.php:1909
 msgid "Edit your front page"
 msgstr "Отредактируйте главную страницу"
 
 #: wp-admin/includes/class-wp-privacy-requests-table.php:46
-#: wp-admin/includes/dashboard.php:1901
+#: wp-admin/includes/dashboard.php:1903
 msgid "Next Steps"
 msgstr "Следующие шаги"
 
 #. translators: %s: URL to Themes panel in Customizer or Themes screen.
-#: wp-admin/includes/dashboard.php:1895
+#: wp-admin/includes/dashboard.php:1897
 msgid "or, <a href=\"%s\">change your theme completely</a>"
 msgstr "или <a href=\"%s\">выберите другую тему</a>"
 
-#: wp-admin/includes/dashboard.php:1886
+#: wp-admin/includes/dashboard.php:1888
 msgid "Get Started"
 msgstr "Для начала"
 
-#: wp-admin/includes/dashboard.php:1882
+#: wp-admin/includes/dashboard.php:1884
 msgid "We&#8217;ve assembled some links to get you started:"
 msgstr "Мы собрали несколько ссылок для вашего удобства:"
 
-#: wp-admin/includes/dashboard.php:1881
+#: wp-admin/includes/dashboard.php:1883
 msgid "Welcome to WordPress!"
 msgstr "Добро пожаловать в WordPress!"
 
@@ -9834,7 +9846,7 @@ msgstr "WordPress развивается силами международной
 msgid "For developers"
 msgstr "Для разработчиков"
 
-#: wp-admin/includes/dashboard.php:1887 wp-admin/includes/dashboard.php:1889
+#: wp-admin/includes/dashboard.php:1889 wp-admin/includes/dashboard.php:1891
 msgid "Customize Your Site"
 msgstr "Настройте свой сайт"
 
@@ -9930,7 +9942,7 @@ msgid "Tumblr"
 msgstr "Tumblr"
 
 #. translators: 1: Browser update URL, 2: Browser name, 3: Browse Happy URL.
-#: wp-admin/includes/dashboard.php:1628
+#: wp-admin/includes/dashboard.php:1630
 msgid "<a href=\"%1$s\" class=\"update-browser-link\">Update %2$s</a> or learn how to <a href=\"%3$s\" class=\"browse-happy-link\">browse happy</a>"
 msgstr "<a href=\"%1$s\" class=\"update-browser-link\">Обновите %2$s</a> или узнайте о <a href=\"%3$s\" class=\"browse-happy-link\">других возможностях</a>"
 
@@ -10283,12 +10295,12 @@ msgid "Featured Image Header"
 msgstr "Изображения записей в заголовке"
 
 #. translators: %s: Browser name and link.
-#: wp-admin/includes/dashboard.php:1606
+#: wp-admin/includes/dashboard.php:1608
 msgid "It looks like you're using an old version of %s. For the best WordPress experience, please update your browser."
 msgstr "Похоже, вы используете устаревшую версию браузера %s. Пожалуйста, обновите свой браузер, чтобы получить более полное впечатление о работе с WordPress."
 
 #. translators: %s: Browser name and link.
-#: wp-admin/includes/dashboard.php:1600
+#: wp-admin/includes/dashboard.php:1602
 msgid "It looks like you're using an insecure version of %s. Using an outdated browser makes your computer unsafe. For the best WordPress experience, please update your browser."
 msgstr "Похоже, вы используете небезопасную версию браузера %s. Использование устаревшего браузера повышает риск взлома вашего компьютера. Пожалуйста, обновите свой браузер, чтобы получить более полное впечатление о работе с WordPress."
 
@@ -10793,11 +10805,11 @@ msgstr[0] "%s пользователь"
 msgstr[1] "%s пользователя"
 msgstr[2] "%s пользователей"
 
-#: wp-admin/includes/dashboard.php:1443
+#: wp-admin/includes/dashboard.php:1445
 msgid "https://wordpress.org/news/feed/"
 msgstr "http://ru.wordpress.org/news/feed/"
 
-#: wp-admin/includes/dashboard.php:1434
+#: wp-admin/includes/dashboard.php:1436
 msgid "https://wordpress.org/news/"
 msgstr "https://ru.wordpress.org/news/"
 
@@ -10820,7 +10832,7 @@ msgstr "Доступна свежая версия %1$s. <a href=\"%2$s\" %3$s>�
 msgid "Click Save Menu to make pending menu items public."
 msgstr "Нажмите &laquo;Сохранить меню&raquo;, чтобы опубликовать черновики элементов."
 
-#: wp-admin/includes/dashboard.php:1549
+#: wp-admin/includes/dashboard.php:1551
 msgid "Storage Space"
 msgstr "Дисковое пространство"
 
@@ -11322,7 +11334,7 @@ msgstr "Не спам"
 msgid "This will restore the original background image. You will not be able to restore any customizations."
 msgstr "Эта функция восстановит исходное фоновое изображение. Вы не сможете вернуть сделанные изменения."
 
-#: wp-admin/includes/dashboard.php:1452
+#: wp-admin/includes/dashboard.php:1454
 msgid "WordPress Blog"
 msgstr "Блог WordPress"
 
@@ -14099,7 +14111,7 @@ msgstr "Настроить"
 msgid "View all"
 msgstr "Посмотреть все"
 
-#: wp-admin/includes/dashboard.php:1485
+#: wp-admin/includes/dashboard.php:1487
 msgid "Other WordPress News"
 msgstr "Другие новости WordPress"
 

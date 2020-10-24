@@ -11,7 +11,7 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: WordPress - 5.5.x - Development\n"
 
-#: wp-includes/script-loader.php:1441
+#: wp-includes/script-loader.php:1442
 msgctxt "Google Font Name and Variants"
 msgid "Noto Serif:400,400i,700,700i"
 msgstr "Noto Serif:400,400i,700,700i"
@@ -34,13 +34,13 @@ msgstr "on"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/script-loader.php:1619 wp-includes/formatting.php:3884
+#: wp-includes/script-loader.php:1620 wp-includes/formatting.php:3884
 #: wp-includes/js/dist/editor.js:13029
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
 
-#: wp-includes/script-loader.php:1351
+#: wp-includes/script-loader.php:1352
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
@@ -2594,7 +2594,7 @@ msgstr "Элемент добавлен."
 #: wp-admin/includes/class-wp-site-health.php:1441
 #: wp-admin/includes/class-wp-site-health.php:1510
 #: wp-admin/includes/dashboard.php:1233 wp-admin/includes/dashboard.php:1245
-#: wp-admin/includes/dashboard.php:1258 wp-admin/includes/dashboard.php:1756
+#: wp-admin/includes/dashboard.php:1258 wp-admin/includes/dashboard.php:1758
 msgid "(opens in a new tab)"
 msgstr "(откроется в новой вкладке)"
 
@@ -4430,7 +4430,7 @@ msgid "(no author)"
 msgstr "(без автора)"
 
 #. translators: %s: The name of a city.
-#: wp-includes/script-loader.php:1753
+#: wp-includes/script-loader.php:1755
 msgid "City updated. Listing events near %s."
 msgstr "Настройки города обновлены. Выводим список мероприятий рядом с %s."
 
@@ -4438,19 +4438,19 @@ msgstr "Настройки города обновлены. Выводим сп�
 #. examples with cities in your locale, but test * that they match the expected
 #. location before including them. * Use endonyms (native locale names)
 #. whenever possible.
-#: wp-includes/script-loader.php:1749 wp-admin/includes/dashboard.php:1364
+#: wp-includes/script-loader.php:1751 wp-admin/includes/dashboard.php:1364
 msgid "We couldn&#8217;t locate %s. Please try another nearby city. For example: Kansas City; Springfield; Portland."
 msgstr "Не удалось найти %s. Пожалуйста, попробуйте другой город рядом. Например: Златоуст; Челябинская область."
 
-#: wp-includes/script-loader.php:1731
+#: wp-includes/script-loader.php:1733
 msgid "Attend an upcoming event near you."
 msgstr "Участвуйте в предстоящих мероприятиях рядом с вами."
 
-#: wp-includes/script-loader.php:1730 wp-admin/includes/dashboard.php:1280
+#: wp-includes/script-loader.php:1732 wp-admin/includes/dashboard.php:1280
 msgid "An error occurred. Please try again."
 msgstr "Произошла ошибка. Пожалуйста, попробуйте ещё раз."
 
-#: wp-includes/script-loader.php:1729
+#: wp-includes/script-loader.php:1731
 msgid "Enter your closest city to find nearby events."
 msgstr "Введите ближайший город, чтобы найти мероприятия рядом."
 
@@ -6925,7 +6925,7 @@ msgstr "Не удалось получить текст ошибки от MySQL"
 msgid "Edit Menu"
 msgstr "Редактировать меню"
 
-#: wp-includes/script-loader.php:1673 wp-admin/includes/dashboard.php:964
+#: wp-includes/script-loader.php:1674 wp-admin/includes/dashboard.php:964
 msgid "Today"
 msgstr "Сегодня"
 
@@ -8882,7 +8882,7 @@ msgstr "Корзина"
 msgid "Edit Selection"
 msgstr "Изменить выбор"
 
-#: wp-includes/script-loader.php:1677 wp-includes/js/dist/components.js:42054
+#: wp-includes/script-loader.php:1678 wp-includes/js/dist/components.js:42054
 msgid "Previous"
 msgstr "Назад"
 
@@ -10196,7 +10196,7 @@ msgstr "Список страниц вашего сайта."
 msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
 msgstr "Произошла непредвиденная ошибка. Возможно, что-то не так с сайтом WordPress.org или с настройками вашего сервера. Если проблема не решится, обратитесь на <a href=\"%s\">форумы поддержки</a>."
 
-#: wp-includes/script-loader.php:1358
+#: wp-includes/script-loader.php:1359
 msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
 msgid "no-subset"
 msgstr "cyrillic"
@@ -12695,7 +12695,7 @@ msgstr "Но прежде чем вы начнёте использовать с
 msgid "%s is your new username"
 msgstr "%s &#8212 ваше новое имя пользователя"
 
-#: wp-includes/script-loader.php:1676
+#: wp-includes/script-loader.php:1677
 #: wp-includes/class-wp-customize-nav-menus.php:1110 wp-signup.php:621
 #: wp-includes/js/dist/components.js:42057
 msgid "Next"
@@ -14657,7 +14657,7 @@ msgid "Select"
 msgstr "Выбрать"
 
 #: wp-includes/script-loader.php:811 wp-includes/script-loader.php:1107
-#: wp-includes/script-loader.php:1672
+#: wp-includes/script-loader.php:1673
 #: wp-includes/class-wp-customize-manager.php:5688
 #: wp-includes/class-wp-editor.php:1179 wp-includes/class-wp-editor.php:1835
 #: wp-includes/js/dist/components.js:35855
@@ -14758,7 +14758,7 @@ msgstr "Поиск"
 #: wp-includes/widgets/class-wp-widget-text.php:553
 #: wp-includes/class-wp-customize-manager.php:4268
 #: wp-includes/js/wp-pointer.js:20 wp-admin/includes/file.php:340
-#: wp-admin/includes/dashboard.php:1633 wp-admin/async-upload.php:100
+#: wp-admin/includes/dashboard.php:1635 wp-admin/async-upload.php:100
 #: wp-admin/index.php:160
 msgid "Dismiss"
 msgstr "Закрыть"
