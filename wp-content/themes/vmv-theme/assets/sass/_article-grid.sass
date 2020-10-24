@@ -22,7 +22,10 @@
 			color: #262D33
 			&:hover
 				color: #262D33
+			&:visited
+				color: #262D33
 		&-item
+			// border: 1px solid red
 			border-radius: 10px
 			background-color: #fff
 			overflow: hidden
@@ -38,8 +41,17 @@
 					text-transform: uppercase
 					color: #6E99AE
 				.article-grid
+					&-thumb
+						position: absolute
+						right: 0
+						top: 0
+						// bottom: 55px
+						width: 40%
+						height: 75%
+						object-fit: cover
 					&-title
-						width: 90%
+						width: 60%
+						// width: 300px
 						font-family: Roboto Slab
 						font-style: normal
 						font-weight: bold
@@ -51,6 +63,7 @@
 						font-size: 14px
 						line-height: 20px
 						width: 60%
+						// width: 300px
 						margin-bottom: 40px
 					&-info
 						position: absolute
@@ -110,6 +123,7 @@
 						object-fit: cover
 					&-permalink
 						position: absolute
+						// position: relative
 						right: 0
 						left: 0
 						top: 0
@@ -127,7 +141,7 @@
 						font-size: 16px
 						line-height: 25px
 						color: #FFFFFF
-						margin-top: 25px
+						margin-top: 23px
 						margin-bottom: 27px
 				.tag
 					padding: 5px 12px
@@ -170,11 +184,11 @@
 			&-3
 				grid-area: 2 / 1 / 4 / 2
 				.article
-					&-thumb
-						height: 275px
-						object-fit: cover
-						width: 100%
 					&-grid
+						&-thumb
+							height: 275px
+							object-fit: cover
+							width: 100%
 						&-title
 							padding: 15px 25px 35px
 							font-family: Roboto Slab
@@ -183,27 +197,27 @@
 							font-size: 16px
 							line-height: 25px
 							margin: 0
-			&-default				
+			&-default
 				position: relative
 				.article
-						&-grid
-							&-permalink
-								padding: 25px 25px 30px
-								position: absolute
-								width: 100%
-								height: 100%
-								display: flex
-								flex-direction: column
-								justify-content: space-between
-								align-items: flex-start
-							&-title
-								font-family: Roboto Slab
-								font-style: normal
-								font-weight: bold
-								font-size: 16px
-								line-height: 25px
-								margin: 0
-								margin-bottom: 5px
-							&-excerpt
-								margin: 0
-								margin-bottom: auto
+					&-grid
+						&-permalink
+							padding: 25px 25px 30px
+							position: absolute
+							width: 100%
+							height: 100%
+							display: flex
+							flex-direction: column
+							justify-content: space-between
+							align-items: flex-start
+						&-title
+							font-family: Roboto Slab
+							font-style: normal
+							font-weight: bold
+							font-size: 16px
+							line-height: 25px
+							margin: 0
+							margin-bottom: 5px
+						&-excerpt
+							margin: 0
+							margin-bottom: auto

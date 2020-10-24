@@ -419,6 +419,10 @@ body {
   color: #262D33;
 }
 
+.article-grid-permalink:visited {
+  color: #262D33;
+}
+
 .article-grid-item {
   border-radius: 10px;
   background-color: #fff;
@@ -446,17 +450,16 @@ body {
 
 .article-grid-item-1 .article-grid-thumb {
   position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
+  right: 0;
   top: 0;
-  z-index: -1;
+  width: 40%;
+  height: 75%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .article-grid-item-1 .article-grid-title {
-  width: 90%;
+  width: 60%;
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: bold;
@@ -597,7 +600,7 @@ body {
   font-size: 16px;
   line-height: 25px;
   color: #FFFFFF;
-  margin-top: 25px;
+  margin-top: 23px;
   margin-bottom: 27px;
 }
 
@@ -679,7 +682,7 @@ body {
   grid-area: 2 / 1 / 4 / 2;
 }
 
-.article-grid-item-3 .article-thumb {
+.article-grid-item-3 .article-grid-thumb {
   height: 275px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -720,7 +723,7 @@ body {
           align-items: flex-start;
 }
 
-.article-grid-item-default .article-grid-permalink-title {
+.article-grid-item-default .article-grid-title {
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: bold;
@@ -730,7 +733,7 @@ body {
   margin-bottom: 5px;
 }
 
-.article-grid-item-default .article-grid-permalink-excerpt {
+.article-grid-item-default .article-grid-excerpt {
   margin: 0;
   margin-bottom: auto;
 }
@@ -738,6 +741,23 @@ body {
 .sidebar-front-page {
   margin-left: 30px;
   margin-top: 30px;
+}
+
+.widget {
+  max-width: 263px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.widget-title {
+  padding: 20px 25px;
+  border-bottom: 1px solid #D9DADB;
+  font-family: "Lato Black", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .widget-downloader {
@@ -756,6 +776,9 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 25px;
+  border: none;
+  padding: 0;
+  text-transform: none;
 }
 
 .widget-downloader .widget-link {
@@ -792,4 +815,63 @@ body {
   font-size: 14px;
   line-height: 20px;
   margin: 0;
+}
+
+.widget .tagcloud {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px;
+  padding-bottom: 35px;
+}
+
+.widget .tag-cloud-link {
+  text-decoration: none;
+  padding: 5px 15px;
+  border: 1px solid #D9DADB;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  line-height: 20px;
+  color: #262D33;
+}
+
+.widget-socialNetworks {
+  padding-bottom: 40px;
+}
+
+.widget-socialNetworks .widget-title {
+  border: none;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  text-align: center;
+  text-transform: none;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.widget-socialNetworks .widget-link {
+  text-decoration: none;
+}
+
+.widget-socialNetworks .widget-facebook-icon {
+  margin-left: 33px;
+}
+
+.widget-socialNetworks .widget-twitter-icon {
+  margin-right: 20px;
+  margin-left: 20px;
 }

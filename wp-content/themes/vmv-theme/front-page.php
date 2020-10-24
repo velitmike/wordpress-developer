@@ -142,6 +142,7 @@
 						case '1': ?>
 							<li class="article-grid-item article-grid-item-1">
 								<a href="<?php the_permalink() ?>" class="article-grid-permalink">
+									<img class="article-grid-thumb" src="<?php echo get_the_post_thumbnail_url() ?>" alt="Миниатюры">
 									<span class="category-name"><?php $category = get_the_category();
 																							echo $category[0]->name;; ?></span>
 									<h4 class="article-grid-title">
@@ -171,12 +172,12 @@
 							// Выводим второй пост
 						case '2': ?>
 							<li class="article-grid-item article-grid-item-2">
-								<img src="<?php echo get_the_post_thumbnail_url() ?>" alt="Миниатюры" class="article-grid-thrumb">
+								<img src="<?php echo get_the_post_thumbnail_url() ?>" alt="Миниатюры" class="article-grid-thumb">
 								<a href="<?php the_permalink() ?>" class="article-grid-permalink">
 									<span class="tag">
 										<?php $posttags = get_the_tags();
 										if ($posttags) {
-											echo $posttags[0]->name . ' ';
+											echo $posttags[0]->name . '';
 										}
 										?>
 									</span>
@@ -230,7 +231,7 @@
 									<p class="article-grid-excerpt">
 										<?php echo mb_strimwidth(get_the_excerpt(), 0, 76, '...') ?>
 									</p>
-									<span class="article-date"><?php the_time('j F Y') ?></span>
+									<span class="article-date"><?php the_time('j F') ?></span>
 								</a>
 							</li>
 					<?php
@@ -247,7 +248,7 @@
 			?>
 		</ul>
 		<!-- /.article-grid -->
-		<!-- Подклчаем сайдбар -->
+		<!-- Подключаем сайдбар -->
 		<?php get_sidebar() ?>
 	</div>
 	<!-- /.main-grid -->
