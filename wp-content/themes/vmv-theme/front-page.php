@@ -106,7 +106,7 @@
 							<?php echo mb_strimwidth(get_the_title(), 0, 50, '...'); ?>
 						</h4>
 					</a>
-					<img class="article-thumb" src="<?php the_post_thumbnail_url(null, 'thumbnail') ?>" alt="<?php the_title()?>" />
+					<img class="article-thumb" src="<?php the_post_thumbnail_url(null, 'thumbnail') ?>" alt="<?php the_title() ?>" />
 				</li>
 			<?php
 			}
@@ -255,19 +255,18 @@
 	<!-- /.main-grid -->
 </div>
 <!-- /.container -->
+
+<!-- Вывод постов в большой обложной -->
 <?php
 global $post;
-
 $query = new WP_Query([
 	'posts_per_page' => 1,
 	'category_name'  => 'investigation',
 ]);
-
 if ($query->have_posts()) {
 	while ($query->have_posts()) {
 		$query->the_post();
 ?>
-
 		<section class="investigation" style="background: linear-gradient(0deg, rgba(64, 48, 61, 0.75), rgba(64, 48, 61, 0.75)),  url(<?php echo get_the_post_thumbnail_url() ?>) no-repeat center">
 			<div class="container">
 				<h2 class="investigation-title"><?php the_title() ?></h2>
@@ -275,12 +274,43 @@ if ($query->have_posts()) {
 			</div>
 		</section>
 		<!-- /.investigation -->
-
 <?php
 	}
 } else {
 	// Постов не найдено
 }
-
 wp_reset_postdata(); // Сбрасываем $post
 ?>
+<div class="container">
+	<div class="article-container">
+		<ul class="article-column">
+			<?php
+			global $post;
+
+			$myposts = get_posts([
+				'numberposts' => 6,
+			]);
+
+			if ($myposts) {
+				foreach ($myposts as $post) {
+					setup_postdata($post);
+			?>
+					<li class="article-column-item">
+						<a href="<?php the_permalink() ?>" class="article-column-permalink">
+							<h4 class="article-column-title"><?php the_title()?></h4>
+						</a>
+					</li>
+			<?php
+				}
+			} else {
+				// Постов не найдено
+			}
+
+			wp_reset_postdata(); // Сбрасываем $post
+			?>
+		</ul>
+		<!-- /.ul article-column -->
+	</div>
+	<!-- /.article-container -->
+</div>
+<!-- /.container -->
