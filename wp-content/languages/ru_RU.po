@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.5.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-04 09:10:31+0000\n"
+"PO-Revision-Date: 2020-10-28 19:54:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +21,7 @@ msgctxt "Comment number declension: on or off"
 msgid "off"
 msgstr "on"
 
-#: wp-includes/general-template.php:839
+#: wp-includes/general-template.php:842
 msgid "html_lang_attribute"
 msgstr "ru-RU"
 
@@ -39,6 +39,12 @@ msgstr "on"
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr "words"
+
+#: wp-login.php:122 wp-includes/admin-bar.php:165
+#: wp-includes/widgets/class-wp-widget-meta.php:90 wp-admin/upgrade.php:68
+#: wp-admin/admin-footer.php:38 wp-admin/maint/repair.php:24
+msgid "https://wordpress.org/"
+msgstr "https://ru.wordpress.org/"
 
 #: wp-includes/script-loader.php:1352
 msgctxt "Open Sans font: on or off"
@@ -86,6 +92,14 @@ msgstr " "
 #: wp-includes/class-wp-locale.php:208
 msgid "number_format_decimal_point"
 msgstr ","
+
+#: wp-includes/category-template.php:161
+#: wp-includes/js/dist/block-editor.js:25066
+#: wp-includes/js/dist/block-editor.js:25071
+#: wp-includes/js/dist/block-editor.js:25337
+#: wp-includes/js/dist/edit-post.js:5056 wp-admin/includes/upgrade.php:158
+msgid "Uncategorized"
+msgstr "Без рубрики"
 
 #. translators: %s: WP_ENVIRONMENT_TYPES
 #: wp-includes/load.php:164
@@ -485,54 +499,54 @@ msgctxt "unit symbol"
 msgid "TB"
 msgstr "ТБ"
 
-#: wp-includes/general-template.php:4445
+#: wp-includes/general-template.php:4448
 msgctxt "admin color scheme"
 msgid "Modern"
 msgstr "Современная"
 
 #. translators: 1: Title prefix. 2: Title.
-#: wp-includes/general-template.php:1725
+#: wp-includes/general-template.php:1728
 msgctxt "archive title"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
 #. translators: %s: Taxonomy singular name.
-#: wp-includes/general-template.php:1706
+#: wp-includes/general-template.php:1709
 msgctxt "taxonomy term archive title prefix"
 msgid "%s:"
 msgstr "%s:"
 
-#: wp-includes/general-template.php:1698
+#: wp-includes/general-template.php:1701
 msgctxt "post type archive title prefix"
 msgid "Archives:"
 msgstr "Архивы:"
 
-#: wp-includes/general-template.php:1675
+#: wp-includes/general-template.php:1678
 msgctxt "date archive title prefix"
 msgid "Day:"
 msgstr "День:"
 
-#: wp-includes/general-template.php:1672
+#: wp-includes/general-template.php:1675
 msgctxt "date archive title prefix"
 msgid "Month:"
 msgstr "Месяц:"
 
-#: wp-includes/general-template.php:1669
+#: wp-includes/general-template.php:1672
 msgctxt "date archive title prefix"
 msgid "Year:"
 msgstr "Год:"
 
-#: wp-includes/general-template.php:1666
+#: wp-includes/general-template.php:1669
 msgctxt "author archive title prefix"
 msgid "Author:"
 msgstr "Автор:"
 
-#: wp-includes/general-template.php:1663
+#: wp-includes/general-template.php:1666
 msgctxt "tag archive title prefix"
 msgid "Tag:"
 msgstr "Метка:"
 
-#: wp-includes/general-template.php:1660
+#: wp-includes/general-template.php:1663
 msgctxt "category archive title prefix"
 msgid "Category:"
 msgstr "Рубрика:"
@@ -553,7 +567,7 @@ msgstr "<strong>ОШИБКА</strong>: Введённый URL сайта уже 
 #. translators: 1: Pattern name.
 #: wp-includes/class-wp-block-patterns-registry.php:75
 msgid "Pattern \"%1$s\" not found."
-msgstr "Шаблон \"%1$s\" не найден."
+msgstr "Паттерн блока \"%1$s не найден."
 
 #: wp-includes/class-wp-block-patterns-registry.php:52
 msgid "Pattern content must be a string."
@@ -1357,7 +1371,7 @@ msgstr "Тип записей «%1$s» не зарегистрирован, по
 msgid "In reply to %s."
 msgstr "В ответ на %s."
 
-#: wp-includes/general-template.php:2367
+#: wp-includes/general-template.php:2370
 msgid "Previous and next months"
 msgstr "Предыдущий и следующий месяцы"
 
@@ -6479,7 +6493,7 @@ msgctxt "previous set of posts"
 msgid "Previous"
 msgstr "Назад"
 
-#: wp-login.php:873 wp-login.php:1411 wp-includes/general-template.php:510
+#: wp-login.php:873 wp-login.php:1411 wp-includes/general-template.php:513
 msgid "Username or Email Address"
 msgstr "Имя пользователя или email"
 
@@ -7157,7 +7171,7 @@ msgstr "<strong>ОШИБКА</strong>: Неверное имя пользова�
 
 #. translators: 1: Blog name, 2: Separator (raquo), 3: Term name, 4: Taxonomy
 #. singular name.
-#: wp-includes/general-template.php:3105
+#: wp-includes/general-template.php:3108
 msgid "%1$s %2$s %3$s %4$s Feed"
 msgstr "%1$s %2$s Лента элемента %3$s таксономии %4$s"
 
@@ -7829,7 +7843,7 @@ msgid "Older comments"
 msgstr "Предыдущие комментарии"
 
 #. translators: Post calendar label. %s: Date.
-#: wp-includes/general-template.php:2340
+#: wp-includes/general-template.php:2343
 msgid "Posts published on %s"
 msgstr "Записи, опубликованные %s"
 
@@ -8701,13 +8715,13 @@ msgstr "Отсортируйте медиафайлы путём перетас�
 
 #. translators: 1: 'text_direction' argument, 2: bloginfo() function name, 3:
 #. is_rtl() function name.
-#: wp-includes/general-template.php:851
+#: wp-includes/general-template.php:854
 msgid "The %1$s option is deprecated for the family of %2$s functions. Use the %3$s function instead."
 msgstr "Параметр %1$s семейства функций %2$s считается устаревшим. Используйте функцию %3$s."
 
 #. translators: 1: 'siteurl'/'home' argument, 2: bloginfo() function name, 3:
 #. 'url' argument.
-#: wp-includes/general-template.php:770
+#: wp-includes/general-template.php:773
 msgid "The %1$s option is deprecated for the family of %2$s functions. Use the %3$s option instead."
 msgstr "Параметр %1$s семейства функций %2$s считается устаревшим. Используйте параметр %3$s."
 
@@ -8909,52 +8923,52 @@ msgctxt "translations"
 msgid "Installed"
 msgstr "Установленные"
 
-#: wp-includes/general-template.php:1694
+#: wp-includes/general-template.php:1697
 msgctxt "post format archive title"
 msgid "Chats"
 msgstr "Чаты"
 
-#: wp-includes/general-template.php:1692
+#: wp-includes/general-template.php:1695
 msgctxt "post format archive title"
 msgid "Audio"
 msgstr "Аудио"
 
-#: wp-includes/general-template.php:1690
+#: wp-includes/general-template.php:1693
 msgctxt "post format archive title"
 msgid "Statuses"
 msgstr "Статусы"
 
-#: wp-includes/general-template.php:1688
+#: wp-includes/general-template.php:1691
 msgctxt "post format archive title"
 msgid "Links"
 msgstr "Ссылки"
 
-#: wp-includes/general-template.php:1686
+#: wp-includes/general-template.php:1689
 msgctxt "post format archive title"
 msgid "Quotes"
 msgstr "Цитаты"
 
-#: wp-includes/general-template.php:1684
+#: wp-includes/general-template.php:1687
 msgctxt "post format archive title"
 msgid "Videos"
 msgstr "Видео"
 
-#: wp-includes/general-template.php:1682
+#: wp-includes/general-template.php:1685
 msgctxt "post format archive title"
 msgid "Images"
 msgstr "Изображения"
 
-#: wp-includes/general-template.php:1680
+#: wp-includes/general-template.php:1683
 msgctxt "post format archive title"
 msgid "Galleries"
 msgstr "Галереи"
 
-#: wp-includes/general-template.php:1678
+#: wp-includes/general-template.php:1681
 msgctxt "post format archive title"
 msgid "Asides"
 msgstr "Заметки"
 
-#: wp-includes/general-template.php:1674 wp-includes/general-template.php:2338
+#: wp-includes/general-template.php:1677 wp-includes/general-template.php:2341
 msgctxt "daily archives date format"
 msgid "F j, Y"
 msgstr "d.m.Y"
@@ -10108,12 +10122,6 @@ msgstr "https://ru.wordpress.org/support/forum/requests-and-feedback/"
 msgid "https://wordpress.org/support/"
 msgstr "https://ru.wordpress.org/support/"
 
-#: wp-login.php:122 wp-includes/admin-bar.php:165
-#: wp-includes/widgets/class-wp-widget-meta.php:90 wp-admin/upgrade.php:68
-#: wp-admin/admin-footer.php:38 wp-admin/maint/repair.php:24
-msgid "https://wordpress.org/"
-msgstr "https://ru.wordpress.org/"
-
 #: wp-includes/js/dist/editor.js:8978
 #: wp-admin/includes/class-wp-privacy-requests-table.php:44
 #: wp-admin/includes/ajax-actions.php:2183
@@ -10121,22 +10129,22 @@ msgstr "https://ru.wordpress.org/"
 msgid "Status"
 msgstr "Статус"
 
-#: wp-includes/general-template.php:4517
+#: wp-includes/general-template.php:4520
 msgctxt "admin color scheme"
 msgid "Coffee"
 msgstr "Кофе"
 
-#: wp-includes/general-template.php:4505
+#: wp-includes/general-template.php:4508
 msgctxt "admin color scheme"
 msgid "Ocean"
 msgstr "Океан"
 
-#: wp-includes/general-template.php:4493
+#: wp-includes/general-template.php:4496
 msgctxt "admin color scheme"
 msgid "Ectoplasm"
 msgstr "Эктоплазма"
 
-#: wp-includes/general-template.php:4481
+#: wp-includes/general-template.php:4484
 msgctxt "admin color scheme"
 msgid "Sunrise"
 msgstr "Рассвет"
@@ -10206,17 +10214,17 @@ msgstr "cyrillic"
 msgid "Use commas instead of %s to separate excluded terms."
 msgstr "Чтобы исключить несколько элементов, вместо %s используйте запятые."
 
-#: wp-includes/general-template.php:4469
+#: wp-includes/general-template.php:4472
 msgctxt "admin color scheme"
 msgid "Midnight"
 msgstr "Полночь"
 
-#: wp-includes/general-template.php:4433
+#: wp-includes/general-template.php:4436
 msgctxt "admin color scheme"
 msgid "Light"
 msgstr "Светлая"
 
-#: wp-includes/general-template.php:4421
+#: wp-includes/general-template.php:4424
 msgctxt "admin color scheme"
 msgid "Default"
 msgstr "По умолчанию"
@@ -10433,17 +10441,17 @@ msgstr "Страница входа откроется в новом окне. �
 msgid "%s <span class=\"says\">says:</span>"
 msgstr "%s<span class=\"says\">:</span>"
 
-#: wp-includes/general-template.php:322 wp-includes/general-template.php:329
+#: wp-includes/general-template.php:325 wp-includes/general-template.php:332
 msgctxt "submit button"
 msgid "Search"
 msgstr "Поиск"
 
-#: wp-includes/general-template.php:319 wp-includes/general-template.php:327
+#: wp-includes/general-template.php:322 wp-includes/general-template.php:330
 msgctxt "label"
 msgid "Search for:"
 msgstr "Найти:"
 
-#: wp-includes/general-template.php:320
+#: wp-includes/general-template.php:323
 msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Поиск&hellip;"
@@ -10863,7 +10871,7 @@ msgid "Alternative Text"
 msgstr "Атрибут alt"
 
 #. translators: 1: Blog name, 2: Separator (raquo), 3: Post type name.
-#: wp-includes/general-template.php:3111
+#: wp-includes/general-template.php:3114
 msgid "%1$s %2$s %3$s Feed"
 msgstr "%1$s %2$s Лента записей типа &laquo;%3$s&raquo;"
 
@@ -11336,12 +11344,12 @@ msgstr "Извините, вам не разрешено создавать за
 msgid "Sorry, you are not allowed to create private posts in this post type."
 msgstr "Извините, вам не разрешено создавать личные записи этого типа"
 
-#: wp-includes/general-template.php:1185 wp-includes/general-template.php:1668
+#: wp-includes/general-template.php:1188 wp-includes/general-template.php:1671
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
 
-#: wp-includes/general-template.php:1188 wp-includes/general-template.php:1671
+#: wp-includes/general-template.php:1191 wp-includes/general-template.php:1674
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
@@ -11478,7 +11486,7 @@ msgstr "<strong>ОШИБКА</strong>: пожалуйста, заполните 
 msgid "Documentation"
 msgstr "Документация"
 
-#: wp-includes/general-template.php:4323 wp-includes/formatting.php:3872
+#: wp-includes/general-template.php:4326 wp-includes/formatting.php:3872
 #: wp-admin/themes.php:249
 msgid "&hellip;"
 msgstr "&hellip;"
@@ -11546,7 +11554,7 @@ msgstr "Размеры изображения превышают максима�
 msgid "This file is not an image. Please try another."
 msgstr "Файл не является изображением. Пожалуйста, выберите другой."
 
-#: wp-includes/general-template.php:4457
+#: wp-includes/general-template.php:4460
 msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Синяя"
@@ -12288,7 +12296,7 @@ msgid "This action has been disabled by the administrator."
 msgstr "Это действие запрещено администратором."
 
 #. translators: %s: Page number.
-#: wp-includes/general-template.php:1197
+#: wp-includes/general-template.php:1200
 msgid "Page %s"
 msgstr "Страница %s"
 
@@ -13815,96 +13823,96 @@ msgstr "Пользователь заблокировал HTTP-запросы."
 msgid "Gray"
 msgstr "Серый"
 
-#: wp-includes/general-template.php:4220
+#: wp-includes/general-template.php:4223
 msgid "Next &raquo;"
 msgstr "Далее &rarr;"
 
-#: wp-includes/general-template.php:4219
+#: wp-includes/general-template.php:4222
 msgid "&laquo; Previous"
 msgstr "&larr; Ранее"
 
 #. translators: 1: Blog name, 2: Separator (raquo), 3: Search query.
-#: wp-includes/general-template.php:3109
+#: wp-includes/general-template.php:3112
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s Лента результатов поиска &laquo;%3$s&raquo;"
 
 #. translators: 1: Blog name, 2: Separator (raquo), 3: Author name.
-#: wp-includes/general-template.php:3107
+#: wp-includes/general-template.php:3110
 msgid "%1$s %2$s Posts by %3$s Feed"
 msgstr "%1$s %2$s Лента записей автора %3$s"
 
 #. translators: 1: Blog name, 2: Separator (raquo), 3: Tag name.
-#: wp-includes/general-template.php:3103
+#: wp-includes/general-template.php:3106
 msgid "%1$s %2$s %3$s Tag Feed"
 msgstr "%1$s %2$s Лента метки %3$s"
 
 #. translators: 1: Blog name, 2: Separator (raquo), 3: Category name.
-#: wp-includes/general-template.php:3101
+#: wp-includes/general-template.php:3104
 msgid "%1$s %2$s %3$s Category Feed"
 msgstr "%1$s %2$s Лента рубрики %3$s"
 
 #. translators: 1: Blog name, 2: Separator (raquo), 3: Post title.
-#: wp-includes/general-template.php:3099
+#: wp-includes/general-template.php:3102
 msgid "%1$s %2$s %3$s Comments Feed"
 msgstr "%1$s %2$s Лента комментариев к &laquo;%3$s&raquo;"
 
 #. translators: 1: Blog title, 2: Separator (raquo).
-#: wp-includes/general-template.php:3059
+#: wp-includes/general-template.php:3062
 msgid "%1$s %2$s Comments Feed"
 msgstr "%1$s %2$s Лента комментариев"
 
 #. translators: 1: Blog title, 2: Separator (raquo).
-#: wp-includes/general-template.php:3057
+#: wp-includes/general-template.php:3060
 msgid "%1$s %2$s Feed"
 msgstr "%1$s %2$s Лента"
 
 #. translators: Separator between blog name and feed type in feed links.
-#: wp-includes/general-template.php:3055 wp-includes/general-template.php:3097
+#: wp-includes/general-template.php:3058 wp-includes/general-template.php:3100
 msgctxt "feed link"
 msgid "&raquo;"
 msgstr "&raquo;"
 
 #. translators: Calendar caption: 1: Month name, 2: 4-digit year.
-#: wp-includes/general-template.php:2268
+#: wp-includes/general-template.php:2271
 msgctxt "calendar caption"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
 #. translators: 1: Month, 2: Year.
 #. translators: 1: Month name, 2: 4-digit year.
-#: wp-includes/media.php:4123 wp-includes/general-template.php:2024
+#: wp-includes/media.php:4123 wp-includes/general-template.php:2027
 #: wp-admin/includes/class-wp-list-table.php:628
 msgid "%1$s %2$d"
 msgstr "%1$s %2$d"
 
-#: wp-includes/general-template.php:1148 wp-includes/general-template.php:1365
+#: wp-includes/general-template.php:1151 wp-includes/general-template.php:1368
 msgid "Page not found"
 msgstr "Страница не найдена"
 
 #. translators: 1: Separator, 2: Search query.
-#: wp-includes/general-template.php:1360
+#: wp-includes/general-template.php:1363
 msgid "Search Results %1$s %2$s"
 msgstr "Результаты поиска %1$s %2$s"
 
-#: wp-includes/general-template.php:658
+#: wp-includes/general-template.php:661
 msgid "Site Admin"
 msgstr "Управление сайтом"
 
 #: wp-login.php:897 wp-login.php:1032 wp-login.php:1125 wp-login.php:1468
-#: wp-includes/general-template.php:653
+#: wp-includes/general-template.php:656
 msgid "Register"
 msgstr "Регистрация"
 
-#: wp-login.php:1434 wp-includes/general-template.php:512
+#: wp-login.php:1434 wp-includes/general-template.php:515
 msgid "Remember Me"
 msgstr "Запомнить меня"
 
-#: wp-includes/general-template.php:373
+#: wp-includes/general-template.php:376
 msgid "Log out"
 msgstr "Выйти"
 
 #: wp-login.php:893 wp-login.php:968 wp-login.php:1028 wp-login.php:1130
-#: wp-includes/general-template.php:371
+#: wp-includes/general-template.php:374
 msgid "Log in"
 msgstr "Войти"
 
@@ -14524,7 +14532,7 @@ msgstr "Да"
 msgid "Edit Category"
 msgstr "Изменить рубрику"
 
-#: wp-login.php:1392 wp-login.php:1436 wp-includes/general-template.php:513
+#: wp-login.php:1392 wp-login.php:1436 wp-includes/general-template.php:516
 #: wp-admin/install.php:219 wp-admin/install.php:439
 #: wp-admin/includes/network.php:679
 msgid "Log In"
@@ -14682,14 +14690,6 @@ msgstr "Страницы"
 #: wp-includes/pluggable.php:1997
 msgid "Email: %s"
 msgstr "Email: %s"
-
-#: wp-includes/category-template.php:161
-#: wp-includes/js/dist/block-editor.js:25066
-#: wp-includes/js/dist/block-editor.js:25071
-#: wp-includes/js/dist/block-editor.js:25337
-#: wp-includes/js/dist/edit-post.js:5056 wp-admin/includes/upgrade.php:158
-msgid "Uncategorized"
-msgstr "Без рубрики"
 
 #: wp-includes/widgets/class-wp-widget-links.php:29
 #: wp-admin/link-manager.php:49
@@ -14933,7 +14933,7 @@ msgstr "Миниатюра"
 msgid "Redo"
 msgstr "Повторить"
 
-#: wp-login.php:1416 wp-includes/general-template.php:511
+#: wp-login.php:1416 wp-includes/general-template.php:514
 #: wp-admin/options-writing.php:166 wp-admin/includes/file.php:2174
 #: wp-admin/includes/class-wp-posts-list-table.php:1613
 #: wp-admin/install.php:137 wp-admin/install.php:427 wp-admin/user-new.php:531
@@ -14953,7 +14953,7 @@ msgstr "Имя пользователя"
 
 #: wp-includes/widgets/class-wp-widget-archives.php:30
 #: wp-includes/widgets/class-wp-widget-archives.php:43
-#: wp-includes/blocks/archives.php:35 wp-includes/general-template.php:1655
+#: wp-includes/blocks/archives.php:35 wp-includes/general-template.php:1658
 #: wp-includes/theme-compat/sidebar.php:119
 #: wp-includes/js/dist/block-library.js:9281 wp-admin/includes/file.php:26
 msgid "Archives"
@@ -15267,7 +15267,7 @@ msgid "Undo"
 msgstr "Отменить"
 
 #. translators: %s: Search query.
-#: wp-includes/general-template.php:1153
+#: wp-includes/general-template.php:1156
 msgid "Search Results for &#8220;%s&#8221;"
 msgstr "Результаты поиска &laquo;%s&raquo;"
 
