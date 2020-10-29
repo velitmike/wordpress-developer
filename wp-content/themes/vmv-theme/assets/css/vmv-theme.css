@@ -210,20 +210,6 @@ body {
   border-radius: 50%;
 }
 
-.hero .left .post-categories {
-  padding: 0;
-  margin: 0;
-}
-
-.hero .left .post-categories a {
-  color: #4592FF;
-  font-weight: 900;
-  font-size: 12px;
-  line-height: 15px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
 .hero .left .post-title {
   font-weight: bold;
   font-size: 40px;
@@ -315,6 +301,39 @@ body {
 
 .more:visited, .more:focus, .more:hover {
   color: #fff;
+}
+
+.category-link {
+  color: #4592FF;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.category-link:visited {
+  color: #4592FF;
+}
+
+.category-link.web-design {
+  color: #FFA34D;
+}
+
+.category-link.web-design:visited {
+  color: #FFA34D;
+}
+
+.category-link.javascript {
+  color: #6E99AE;
+}
+
+.category-link.html {
+  color: #AC8EE3;
+}
+
+.category-link.css {
+  color: #3DC47E;
 }
 
 .article-list {
