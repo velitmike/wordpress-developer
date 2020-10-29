@@ -199,7 +199,7 @@
 													<span class="comments-counter"><?php comments_number('0', '1', '%') ?></span>
 												</div>
 												<div class="likes">
-													<img src="<?php echo get_template_directory_uri() . '/assets/images/heart.svg' ?>" alt="icon: likes" class="likes-icon">
+													<img src="<?php echo get_template_directory_uri() . '/assets/images/heart-white.svg' ?>" alt="icon: likes" class="likes-icon">
 													<span class="likes-counter"><?php comments_number('0', '1', '%') ?></span>
 												</div>
 											</div>
@@ -296,32 +296,39 @@ wp_reset_postdata(); // Сбрасываем $post
 					setup_postdata($post);
 			?>
 					<li class="article-column-item">
-						<img src="<?php echo get_the_post_thumbnail_url() ?>" alt="<?php the_title() ?>" class="article-column-thumb">
-						<a href="<?php the_permalink() ?>" class="article-column-permalink">
-							<span class="tag">
-								<?php $posttags = get_the_tags();
-								if ($posttags) {
-									echo $posttags[1]->name . '';
-								}
-								?>
-							</span>
-							<h4 class="article-column-title"><?php the_title() ?></h4>
-							<p class="article-column-excerpt">
-								<?php echo mb_strimwidth(get_the_excerpt(), 0, 200, '...'); ?>
-							</p>
-							<div class="article-column-info">
-								<span class="date"><?php the_time('j F') ?></span>
-								<div class="comments">
-									<img src="<?php echo get_template_directory_uri() . '/assets/images/comment-white.svg' ?>" alt="Icon: comments" class="comments-icon" />
-									<span class="comments-counter"><?php comments_number('0', '1', '%') ?></span>
+						<div class="article-column-border">
+							<img src="<?php echo get_the_post_thumbnail_url() ?>" alt="<?php the_title() ?>" class="article-column-thumb">
+							<a href="<?php the_permalink() ?>" class="article-column-permalink">
+								<div class="bookmark">
+									<span class="tag">
+										<?php $posttags = get_the_tags();
+										if ($posttags) {
+											echo $posttags[1]->name . '';
+										}
+										?>
+									</span>
+									<img src="<?php echo get_template_directory_uri() . '/assets/images/bookmark.svg' ?>" alt="icon: bookmark" class="bookmark-icon">
 								</div>
-								<div class="likes">
-									<img src="<?php echo get_template_directory_uri() . '/assets/images/heart.svg' ?>" alt="icon: likes" class="likes-icon">
-									<span class="likes-counter"><?php comments_number('0', '1', '%') ?></span>
+								<!-- /.bookmark -->
+								<h4 class="article-column-title"><?php echo mb_strimwidth(get_the_title(), 0, 65, '...'); ?></h4>
+								<p class="article-column-excerpt">
+									<?php echo mb_strimwidth(get_the_excerpt(), 0, 200, '...'); ?>
+								</p>
+								<div class="article-column-info">
+									<span class="date"><?php the_time('j F') ?></span>
+									<div class="comments">
+										<img src="<?php echo get_template_directory_uri() . '/assets/images/comment.svg' ?>" alt="Icon: comments" class="comments-icon" />
+										<span class="comments-counter"><?php comments_number('0', '1', '%') ?></span>
+									</div>
+									<div class="likes">
+										<img src="<?php echo get_template_directory_uri() . '/assets/images/heart.svg' ?>" alt="icon: likes" class="likes-icon">
+										<span class="likes-counter"><?php comments_number('0', '1', '%') ?></span>
+									</div>
 								</div>
-							</div>
-							<!-- /.article-column-info -->
-						</a>
+								<!-- /.article-column-info -->
+							</a>
+						</div>
+						<!-- /.article-column-border -->
 					</li>
 			<?php
 				}

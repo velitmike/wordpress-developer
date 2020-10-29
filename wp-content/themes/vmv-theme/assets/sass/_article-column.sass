@@ -1,20 +1,23 @@
-.article-container
-	border: 1px solid red
 .article
 	&-column
-		// border: 1px solid red	
 		border-radius: 10px
 		padding: 0
 		margin: 0
 		width: 850px
 		overflow: hidden
-		&-item
+		margin-bottom: 10px
+		
+		&-border
 			display: flex
-			// border: 1px solid green
-			padding: 25px
+			padding-bottom: 25px
+			border-bottom: 1px solid #D9DADB
+		&-item
+			// border: 1px solid red
+			// display: flex
+			padding: 25px 25Px 0 25px
 			list-style: none
 			background-color: #fff
-			// text-decoration: none
+			justify-content: space-between
 		&-title
 			margin: 0
 			font-family: Roboto Slab
@@ -26,6 +29,8 @@
 		&-thumb
 			width: 336px
 			height: 195px
+			margin-right: 25px
+			flex: 0 0 auto
 		&-excerpt
 			font-family: Lato
 			font-style: normal
@@ -34,10 +39,54 @@
 			line-height: 20px
 			color: #4B5157
 		&-permalink
+			display: flex
+			flex-direction: column
+			justify-content: space-between
 			text-decoration: none
-		.date, .comments, .likes
-			color: red
-			opacity: 0.4
+			color: #262D33
+			&:hover
+				color: #262D33
+			&:visited
+				color: #262D33
+		.bookmark
+			display: flex
+			justify-content: space-between
+		&-info
+			display: flex
+		.comments
+			// display: flex
+			// align-items: center
+			&-icon
+				margin-left: 5px
+			&-counter
+				margin-left: 5px
+				font-family: Lato
+				font-style: normal
+				font-weight: normal
+				font-size: 12px
+				line-height: 15px
+		.comments
+			display: flex
+			align-items: center
+			color: #939699
+			// opacity: 0.4
+			margin-left: 10px
+			margin-right: 10px
+			ont-family: Lato
+			font-style: normal
+			font-weight: normal
+			font-size: 12px
+			line-height: 15px
+		.date, .likes
+			color: #939699
+			// align-items: center
+			// opacity: 0.4
+			// margin-left: 10px
+			ont-family: Lato
+			font-style: normal
+			font-weight: normal
+			font-size: 12px
+			line-height: 15px
 .tag
 	font-family: Lato
 	font-style: normal

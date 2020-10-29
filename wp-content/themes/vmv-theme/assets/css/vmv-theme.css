@@ -896,25 +896,30 @@ body {
   margin: 0 auto 25px;
 }
 
-.article-container {
-  border: 1px solid red;
-}
-
 .article-column {
   border-radius: 10px;
   padding: 0;
   margin: 0;
   width: 850px;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
-.article-column-item {
+.article-column-border {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #D9DADB;
+}
+
+.article-column-item {
+  padding: 25px 25Px 0 25px;
   list-style: none;
   background-color: #fff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .article-column-title {
@@ -930,6 +935,10 @@ body {
 .article-column-thumb {
   width: 336px;
   height: 195px;
+  margin-right: 25px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 
 .article-column-excerpt {
@@ -942,12 +951,80 @@ body {
 }
 
 .article-column-permalink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-decoration: none;
+  color: #262D33;
 }
 
-.article-column .date, .article-column .comments, .article-column .likes {
-  color: red;
-  opacity: 0.4;
+.article-column-permalink:hover {
+  color: #262D33;
+}
+
+.article-column-permalink:visited {
+  color: #262D33;
+}
+
+.article-column .bookmark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.article-column-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.article-column .comments-icon {
+  margin-left: 5px;
+}
+
+.article-column .comments-counter {
+  margin-left: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.article-column .comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #939699;
+  margin-left: 10px;
+  margin-right: 10px;
+  ont-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.article-column .date, .article-column .likes {
+  color: #939699;
+  ont-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .tag {
