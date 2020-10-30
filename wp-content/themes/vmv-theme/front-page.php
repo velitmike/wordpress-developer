@@ -307,6 +307,7 @@ wp_reset_postdata(); // Сбрасываем $post
 
 			$myposts = get_posts([
 				'numberposts' => 6,
+				'tag' => 'горячее, мнение, новости, подборки',
 			]);
 
 			if ($myposts) {
@@ -319,9 +320,36 @@ wp_reset_postdata(); // Сбрасываем $post
 							<a href="<?php the_permalink() ?>" class="article-column-permalink">
 								<div class="bookmark">
 									<span class="tag">
-										<?php $posttags = get_the_tags();
-										if ($posttags) {
-											echo $posttags[1]->name . '';
+										<?php
+										$all_the_tags = get_the_tags();
+										if ($all_the_tags) {
+											foreach (get_the_tags() as $posttags) {
+												if ($posttags->name == 'горячее') {
+													printf(
+														'<span class="tag-%s">%s</span>',
+														esc_html($posttags->name),
+														esc_html($posttags->name),
+													);
+												} elseif ($posttags->name == 'подборки') {
+													printf(
+														'<span class="tag-%s">%s</span>',
+														esc_html($posttags->name),
+														esc_html($posttags->name),
+													);
+												} elseif ($posttags->name == 'новости') {
+													printf(
+														'<span class="tag-%s">%s</span>',
+														esc_html($posttags->name),
+														esc_html($posttags->name),
+													);
+												} elseif ($posttags->name == 'мнение') {
+													printf(
+														'<span class="tag-%s">%s</span>',
+														esc_html($posttags->name),
+														esc_html($posttags->name),
+													);
+												}
+											}
 										}
 										?>
 									</span>
