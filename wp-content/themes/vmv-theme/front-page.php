@@ -268,7 +268,7 @@
 		</ul>
 		<!-- /.article-grid -->
 		<!-- Подключаем сайдбар -->
-		<?php get_sidebar() ?>
+		<?php get_sidebar('home-top') ?>
 	</div>
 	<!-- /.main-grid -->
 </div>

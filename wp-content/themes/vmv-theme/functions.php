@@ -33,7 +33,7 @@ function vmv_theme_widgets_init()
 {
 	register_sidebar(
 		array(
-			'name'          => esc_html__('Sidebar on main', 'vmv_theme'),
+			'name'          => esc_html__('Sidebar on main top', 'vmv_theme'),
 			'id'            => 'main-sidebar',
 			'description'   => esc_html__('Add widgets here.', 'vmv_theme'),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
@@ -44,8 +44,8 @@ function vmv_theme_widgets_init()
 	);
 	register_sidebar(
 		array(
-			'name'          => esc_html__('Sidebar-two', 'vmv_theme'),
-			'id'            => 'two-sidebar',
+			'name'          => esc_html__('Sidebar on main bottom', 'vmv_theme'),
+			'id'            => 'main-sidebar-bottom',
 			'description'   => esc_html__('Add widgets here.', 'vmv_theme'),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
