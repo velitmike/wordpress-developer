@@ -267,7 +267,7 @@
 			?>
 		</ul>
 		<!-- /.article-grid -->
-		<!-- Подключаем сайдбар -->
+		<!-- Подключаем верхний сайдбар -->
 		<?php get_sidebar('home-top') ?>
 	</div>
 	<!-- /.main-grid -->
@@ -300,93 +300,100 @@ if ($query->have_posts()) {
 wp_reset_postdata(); // Сбрасываем $post
 ?>
 <div class="container">
-	<div class="article-container">
-		<ul class="article-column">
-			<?php
-			global $post;
+	<div class="main-column">
+		<div class="article-container">
+			<ul class="article-column">
+				<?php
+				global $post;
 
-			$myposts = get_posts([
-				'numberposts' => 6,
-				'tag' => 'горячее, мнение, новости, подборки',
-			]);
+				$myposts = get_posts([
+					'numberposts' => 6,
+					'tag' => 'горячее, мнение, новости, подборки',
+				]);
 
-			if ($myposts) {
-				foreach ($myposts as $post) {
-					setup_postdata($post);
-			?>
-					<li class="article-column-item">
-						<div class="article-column-border">
-							<img src="<?php echo get_the_post_thumbnail_url() ?>" alt="<?php the_title() ?>" class="article-column-thumb">
-							<a href="<?php the_permalink() ?>" class="article-column-permalink">
-								<div class="bookmark">
-									<span class="tag">
-										<?php
-										$all_the_tags = get_the_tags();
-										if ($all_the_tags) {
-											foreach (get_the_tags() as $posttags) {
-												if ($posttags->name == 'горячее') {
-													printf(
-														'<span class="tag-%s">%s</span>',
-														esc_html($posttags->name),
-														esc_html($posttags->name),
-													);
-												} elseif ($posttags->name == 'подборки') {
-													printf(
-														'<span class="tag-%s">%s</span>',
-														esc_html($posttags->name),
-														esc_html($posttags->name),
-													);
-												} elseif ($posttags->name == 'новости') {
-													printf(
-														'<span class="tag-%s">%s</span>',
-														esc_html($posttags->name),
-														esc_html($posttags->name),
-													);
-												} elseif ($posttags->name == 'мнение') {
-													printf(
-														'<span class="tag-%s">%s</span>',
-														esc_html($posttags->name),
-														esc_html($posttags->name),
-													);
+				if ($myposts) {
+					foreach ($myposts as $post) {
+						setup_postdata($post);
+				?>
+						<li class="article-column-item">
+							<div class="article-column-border">
+								<img src="<?php echo get_the_post_thumbnail_url() ?>" alt="<?php the_title() ?>" class="article-column-thumb">
+								<a href="<?php the_permalink() ?>" class="article-column-permalink">
+									<div class="bookmark">
+										<span class="tag">
+											<?php
+											$all_the_tags = get_the_tags();
+											if ($all_the_tags) {
+												foreach (get_the_tags() as $posttags) {
+													if ($posttags->name == 'горячее') {
+														printf(
+															'<span class="tag-%s">%s</span>',
+															esc_html($posttags->name),
+															esc_html($posttags->name),
+														);
+													} elseif ($posttags->name == 'подборки') {
+														printf(
+															'<span class="tag-%s">%s</span>',
+															esc_html($posttags->name),
+															esc_html($posttags->name),
+														);
+													} elseif ($posttags->name == 'новости') {
+														printf(
+															'<span class="tag-%s">%s</span>',
+															esc_html($posttags->name),
+															esc_html($posttags->name),
+														);
+													} elseif ($posttags->name == 'мнение') {
+														printf(
+															'<span class="tag-%s">%s</span>',
+															esc_html($posttags->name),
+															esc_html($posttags->name),
+														);
+													}
 												}
 											}
-										}
-										?>
-									</span>
-									<img src="<?php echo get_template_directory_uri() . '/assets/images/bookmark.svg' ?>" alt="icon: bookmark" class="bookmark-icon">
-								</div>
-								<!-- /.bookmark -->
-								<h4 class="article-column-title"><?php echo mb_strimwidth(get_the_title(), 0, 65, '...'); ?></h4>
-								<p class="article-column-excerpt">
-									<?php echo mb_strimwidth(get_the_excerpt(), 0, 200, '...'); ?>
-								</p>
-								<div class="article-column-info">
-									<span class="date"><?php the_time('j F') ?></span>
-									<div class="comments">
-										<img src="<?php echo get_template_directory_uri() . '/assets/images/comment.svg' ?>" alt="Icon: comments" class="comments-icon" />
-										<span class="comments-counter"><?php comments_number('0', '1', '%') ?></span>
+											?>
+										</span>
+										<img src="<?php echo get_template_directory_uri() . '/assets/images/bookmark.svg' ?>" alt="icon: bookmark" class="bookmark-icon">
 									</div>
-									<div class="likes">
-										<img src="<?php echo get_template_directory_uri() . '/assets/images/heart.svg' ?>" alt="icon: likes" class="likes-icon">
-										<span class="likes-counter"><?php comments_number('0', '1', '%') ?></span>
+									<!-- /.bookmark -->
+									<h4 class="article-column-title"><?php echo mb_strimwidth(get_the_title(), 0, 65, '...'); ?></h4>
+									<p class="article-column-excerpt">
+										<?php echo mb_strimwidth(get_the_excerpt(), 0, 200, '...'); ?>
+									</p>
+									<div class="article-column-info">
+										<span class="date"><?php the_time('j F') ?></span>
+										<div class="comments">
+											<img src="<?php echo get_template_directory_uri() . '/assets/images/comment.svg' ?>" alt="Icon: comments" class="comments-icon" />
+											<span class="comments-counter"><?php comments_number('0', '1', '%') ?></span>
+										</div>
+										<div class="likes">
+											<img src="<?php echo get_template_directory_uri() . '/assets/images/heart.svg' ?>" alt="icon: likes" class="likes-icon">
+											<span class="likes-counter"><?php comments_number('0', '1', '%') ?></span>
+										</div>
 									</div>
-								</div>
-								<!-- /.article-column-info -->
-							</a>
-						</div>
-						<!-- /.article-column-border -->
-					</li>
-			<?php
+									<!-- /.article-column-info -->
+								</a>
+							</div>
+							<!-- /.article-column-border -->
+						</li>
+				<?php
+					}
+				} else {
+					// Постов не найдено
 				}
-			} else {
-				// Постов не найдено
-			}
 
-			wp_reset_postdata(); // Сбрасываем $post
-			?>
-		</ul>
-		<!-- /.ul article-column -->
+				wp_reset_postdata(); // Сбрасываем $post
+				?>
+			</ul>
+			<!-- /.ul article-column -->
+
+
+		</div>
+		<!-- /.article-container -->
+		<!-- Подключаем нижний сайдбар -->
+		<?php get_sidebar('home-bottom') ?>
 	</div>
-	<!-- /.article-container -->
+	<!-- /.main-column -->
 </div>
 <!-- /.container -->
