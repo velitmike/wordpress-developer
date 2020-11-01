@@ -556,6 +556,10 @@ body {
           align-items: center;
 }
 
+.article-grid-item-1 .article-grid-info .comments-icon {
+  fill: #BCBFC2;
+}
+
 .article-grid-item-1 .article-grid-info .comments-counter {
   color: #939699;
   font-size: 12px;
@@ -915,6 +919,10 @@ body {
   margin-right: 10px;
 }
 
+.widget-recent-posts-wrapper .recent-posts-thumb {
+  height: 60px;
+}
+
 .widget-recent-posts-wrapper h4 {
   font-family: Lato;
   font-style: normal;
@@ -1082,6 +1090,7 @@ body {
 }
 
 .article-column .comments-icon {
+  fill: #BCBFC2;
   margin-left: 5px;
 }
 
@@ -1143,4 +1152,56 @@ body {
 
 .tag-мнение {
   color: #3BBDC4;
+}
+
+.special {
+  background-color: #262D33;
+  padding: 60px 0;
+  color: #fff;
+}
+
+.special-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.photo-report {
+  min-height: 570px;
+  width: 49%;
+  border: 1px solid red;
+}
+
+.photo-report-button {
+  fill: #fff;
+}
+
+.photo-report-content {
+  position: relative;
+}
+
+.photo-report-slider {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.photo-report-slider .swiper-slide {
+  height: 100%;
+}
+
+.photo-report-slider .swiper-slide img {
+  width: 100%;
+  height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.other {
+  width: 49%;
+  border: 1px solid red;
 }

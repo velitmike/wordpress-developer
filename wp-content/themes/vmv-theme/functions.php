@@ -392,7 +392,13 @@ class Recent_Post_Widget extends WP_Widget
 				setup_postdata($post);
 		?>
 				<a href="<?php the_permalink() ?>" class="recent-post-link">
-					<img class="recent-post-thumb" src="<?php echo get_the_post_thumbnail_url(null, 'thumbnail') ?>" alt="<?php the_title() ?>">
+					<img class="recent-posts-thumb" src="<?php
+																								if (has_post_thumbnail()) {
+																									echo get_the_post_thumbnail_url(null, 'thumbnail');
+																								} else {
+																									echo get_template_directory_uri()  . '/assets/images/img-default.png';
+																								}
+																								?>" alt="<?php the_title() ?>">
 					<div class="recent_post-info">
 						<h4 class="recent-post-title">
 							<?php echo mb_strimwidth(get_the_title(), 0, 33, '...'); ?>
@@ -401,7 +407,6 @@ class Recent_Post_Widget extends WP_Widget
 							<?php
 							$time_diff = human_time_diff(get_post_time('U'), current_time('timestamp'));
 							echo "$time_diff назад";
-							//> Опубликовано 5 лет назад
 							?>
 						</span>
 					</div>
@@ -497,8 +502,11 @@ add_action('widgets_init', 'register_recent_post_widget');
 function enqueue_vmv_style()
 {
 	wp_enqueue_style('style', get_stylesheet_uri());
+	wp_enqueue_style('swiper-slider', get_template_directory_uri() . '/assets/css/swiper-bundle.min.css', 'style', time());
 	wp_enqueue_style('vmv-theme', get_template_directory_uri() . '/assets/css/vmv-theme.css', 'style', time());
 	wp_enqueue_style('Roboto-Slab', "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap",);
+	wp_enqueue_script('swiper', get_template_directory_uri() . '/assets/js/swiper-bundle.min.js', null, time(), true);
+	wp_enqueue_script('scripts', get_template_directory_uri() . '/assets/js/scripts.js', 'swiper', time(), true);
 }
 add_action('wp_enqueue_scripts', 'enqueue_vmv_style');
 
