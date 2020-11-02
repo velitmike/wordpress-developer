@@ -1170,8 +1170,37 @@ body {
 .photo-report {
   min-height: 570px;
   width: 49%;
-  border: 1px solid red;
   position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.photo-report-button {
+  color: #fff;
+  background-color: #4592FF;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.photo-report-button:hover {
+  color: #fff;
+}
+
+.photo-report-icon {
+  fill: #fff;
+  margin-right: 8px;
+}
+
+.photo-report-counter {
+  margin-left: 8px;
 }
 
 .photo-report .category-link {
@@ -1225,10 +1254,6 @@ body {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(64, 48, 61, 0.35)), to(rgba(64, 48, 61, 0.35)));
   background: linear-gradient(0deg, rgba(64, 48, 61, 0.35), rgba(64, 48, 61, 0.35));
   z-index: 1;
-}
-
-.photo-report-button-icon {
-  fill: #fff;
 }
 
 .photo-report-content {
