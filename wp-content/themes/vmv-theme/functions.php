@@ -280,8 +280,7 @@ class SocialNetworks_Widget extends WP_Widget
 		</p>
 		<p>
 			<label for="<?php echo $this->get_field_id('youtube'); ?>"><?php _e('Youtube'); ?></label>
-			<input class="widefat" id="<?php echo $this->get_field_id('youtube'); ?>" name="<?php echo $this->get_field_name('youtube'); ?>" type="text" value="<?php echo
-																																																																														esc_attr($youtube); ?>">
+			<input class="widefat" id="<?php echo $this->get_field_id('youtube'); ?>" name="<?php echo $this->get_field_name('youtube'); ?>" type="text" value="<?php echo esc_attr($youtube); ?>">
 		</p>
 	<?php
 	}
@@ -392,13 +391,10 @@ class Recent_Post_Widget extends WP_Widget
 				setup_postdata($post);
 		?>
 				<a href="<?php the_permalink() ?>" class="recent-post-link">
-					<img class="recent-posts-thumb" src="<?php
-																								if (has_post_thumbnail()) {
-																									echo get_the_post_thumbnail_url(null, 'thumbnail');
-																								} else {
-																									echo get_template_directory_uri()  . '/assets/images/img-default.png';
-																								}
-																								?>" alt="<?php the_title() ?>">
+					<img class="recent-posts-thumb" src="<?php if (has_post_thumbnail()) { 	echo get_the_post_thumbnail_url(null, 'thumbnail');
+						} else { echo get_template_directory_uri()  . '/assets/images/img-default.png';
+						}
+						?>" alt="<?php the_title() ?>">
 					<div class="recent_post-info">
 						<h4 class="recent-post-title">
 							<?php echo mb_strimwidth(get_the_title(), 0, 33, '...'); ?>
