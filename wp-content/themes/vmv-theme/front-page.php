@@ -498,7 +498,7 @@ wp_reset_postdata(); // Сбрасываем $post
 			?>
 			<div class="other">
 				<div class="career">
-					
+					<img src="" alt="<?php the_title() ?>" class="career-photo">
 				</div>
 				<!-- /.career -->
 			</div>
