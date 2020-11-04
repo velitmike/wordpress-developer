@@ -484,7 +484,7 @@ wp_reset_postdata(); // Сбрасываем $post
 								</svg>
 								<!-- <img src="" alt=""> -->
 								Смотреть фото
-								<span class="photo-report-counter"><?php echo count($images)?></span>
+								<span class="photo-report-counter"><?php echo count($images) ?></span>
 							</a>
 						</div>
 					</div>
@@ -497,7 +497,10 @@ wp_reset_postdata(); // Сбрасываем $post
 			wp_reset_postdata(); // Сбрасываем $post
 			?>
 			<div class="other">
-
+				<div class="career">
+					
+				</div>
+				<!-- /.career -->
 			</div>
 			<!-- /.other -->
 		</div>

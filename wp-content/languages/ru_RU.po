@@ -2,11 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.5.x - Development package.
 msgid ""
 msgstr ""
-<<<<<<< HEAD
 "PO-Revision-Date: 2020-10-29 21:17:33+0000\n"
-=======
-"PO-Revision-Date: 2020-10-29 08:05:19+0000\n"
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -7043,11 +7039,7 @@ msgstr "Настройки ссылки"
 msgid "Link inserted."
 msgstr "Ссылка вставлена."
 
-<<<<<<< HEAD
 #: wp-includes/script-loader.php:1064 wp-includes/js/dist/block-editor.js:33350
-=======
-#: wp-includes/script-loader.php:1064 wp-includes/js/dist/block-editor.js:33348
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 msgid "Link selected."
 msgstr "Ссылка выбрана."
 
@@ -7189,11 +7181,7 @@ msgid "%1$s %2$s %3$s %4$s Feed"
 msgstr "%1$s %2$s Лента элемента %3$s таксономии %4$s"
 
 #: wp-includes/media-template.php:199 wp-includes/media-template.php:347
-<<<<<<< HEAD
 #: wp-includes/functions.php:6535 wp-includes/js/dist/components.js:41379
-=======
-#: wp-includes/functions.php:6531 wp-includes/js/dist/components.js:41379
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 msgid "Close dialog"
 msgstr "Закрыть окно"
 
@@ -7271,11 +7259,7 @@ msgid "Invalid object type."
 msgstr "Неверный тип объекта"
 
 #: wp-includes/class-wp-editor.php:1385
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:33395
-=======
-#: wp-includes/js/dist/block-editor.js:33393
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 msgid "Paste URL or type to search"
 msgstr "Введите URL или слово для поиска"
 
@@ -9351,11 +9335,7 @@ msgstr "Исполнитель"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:130
 #: wp-includes/media-template.php:1168
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:35990
-=======
-#: wp-includes/js/dist/block-editor.js:35988
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 msgid "Link CSS Class"
 msgstr "CSS-класс ссылки"
 
@@ -9861,13 +9841,8 @@ msgstr "Вставить тег &laquo;Далее&raquo;"
 msgid "Toolbar Toggle"
 msgstr "Показать/скрыть панель инструментов"
 
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:35591
 #: wp-includes/js/dist/block-editor.js:35598
-=======
-#: wp-includes/js/dist/block-editor.js:35589
-#: wp-includes/js/dist/block-editor.js:35596
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/edit-post.js:1974 wp-admin/tools.php:42
 #: wp-admin/menu.php:278
 msgid "Tools"
@@ -9940,11 +9915,7 @@ msgid "Find and replace"
 msgstr "Найти и заменить"
 
 #: wp-includes/media-template.php:1181 wp-includes/media.php:4192
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:34376
-=======
-#: wp-includes/js/dist/block-editor.js:34374
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/block-library.js:23728
 msgid "Replace"
 msgstr "Заменить"
@@ -10526,11 +10497,7 @@ msgstr "Неверный ID пользователя."
 msgid "Random Order"
 msgstr "Случайный порядок"
 
-<<<<<<< HEAD
 #: wp-includes/media.php:4244 wp-includes/js/dist/block-editor.js:35109
-=======
-#: wp-includes/media.php:4244 wp-includes/js/dist/block-editor.js:35107
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 msgid "Insert from URL"
 msgstr "Вставить с сайта"
 
@@ -10599,11 +10566,7 @@ msgstr "Управление видеофайлами"
 
 #: wp-includes/widgets/class-wp-widget-media-video.php:28
 #: wp-includes/post.php:2771 wp-includes/js/dist/editor.js:8981
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:35043
-=======
-#: wp-includes/js/dist/block-editor.js:35041
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/block-library.js:23965
 msgid "Video"
 msgstr "Видео"
@@ -10642,11 +10605,7 @@ msgstr "Вставить в страницу"
 
 #: wp-includes/widgets/class-wp-widget-media-audio.php:28
 #: wp-includes/post.php:2762 wp-includes/js/dist/editor.js:8984
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:35039
-=======
-#: wp-includes/js/dist/block-editor.js:35037
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/block-library.js:9739
 msgid "Audio"
 msgstr "Аудио"
@@ -10734,11 +10693,7 @@ msgstr "Перетащите файлы сюда"
 msgid "Create gallery"
 msgstr "Создать галерею"
 
-<<<<<<< HEAD
 #: wp-includes/media.php:4208 wp-includes/js/dist/block-editor.js:35151
-=======
-#: wp-includes/media.php:4208 wp-includes/js/dist/block-editor.js:35149
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-admin/includes/media.php:21 wp-admin/upload.php:79
 #: wp-admin/upload.php:216
 msgid "Media Library"
@@ -10799,22 +10754,14 @@ msgstr ""
 
 #: wp-includes/media-template.php:774 wp-includes/media-template.php:849
 #: wp-includes/media-template.php:1122
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:35923
-=======
-#: wp-includes/js/dist/block-editor.js:35921
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/block-library.js:8387
 msgid "Media File"
 msgstr "Медиафайл"
 
 #: wp-includes/media-template.php:781 wp-includes/media-template.php:846
 #: wp-includes/media-template.php:1125
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:35928
-=======
-#: wp-includes/js/dist/block-editor.js:35926
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/block-library.js:8384 wp-admin/includes/media.php:2585
 msgid "Attachment Page"
 msgstr "Страница вложения"
@@ -11137,15 +11084,9 @@ msgstr "Разрешённые файлы"
 msgid "Remove"
 msgstr "Удалить"
 
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:34499
 #: wp-includes/js/dist/block-editor.js:35165
 #: wp-includes/js/dist/block-editor.js:35178
-=======
-#: wp-includes/js/dist/block-editor.js:34497
-#: wp-includes/js/dist/block-editor.js:35163
-#: wp-includes/js/dist/block-editor.js:35176
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-admin/includes/class-custom-background.php:333
 #: wp-admin/includes/media.php:2234 wp-admin/includes/media.php:2236
 #: wp-admin/includes/class-custom-image-header.php:613
@@ -13006,11 +12947,7 @@ msgstr "из"
 #: wp-includes/script-loader.php:809
 #: wp-includes/widgets/class-wp-widget-media-image.php:28
 #: wp-includes/class-wp-editor.php:1212 wp-includes/js/dist/editor.js:8969
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:35041
-=======
-#: wp-includes/js/dist/block-editor.js:35039
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/block-library.js:6099 wp-admin/includes/media.php:2903
 msgid "Image"
 msgstr "Изображение"
@@ -13386,22 +13323,13 @@ msgid "Quote"
 msgstr "Цитата"
 
 #: wp-includes/class-wp-editor.php:1253
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:36037
-=======
-#: wp-includes/js/dist/block-editor.js:36035
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 msgid "Remove link"
 msgstr "Удалить ссылку"
 
 #: wp-includes/script-loader.php:635 wp-includes/class-wp-editor.php:1257
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:35703
 #: wp-includes/js/dist/block-editor.js:36001
-=======
-#: wp-includes/js/dist/block-editor.js:35701
-#: wp-includes/js/dist/block-editor.js:35999
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 msgid "Insert link"
 msgstr "Вставить ссылку"
 
@@ -13423,11 +13351,7 @@ msgstr "Буква"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:137
 #: wp-includes/media-template.php:1164
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:35984
-=======
-#: wp-includes/js/dist/block-editor.js:35982
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 msgid "Link Rel"
 msgstr "Отношение"
 
@@ -13552,11 +13476,7 @@ msgstr "Вставить"
 
 #: wp-includes/class-wp-customize-manager.php:4341
 #: wp-includes/class-wp-editor.php:1171
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:29118
-=======
-#: wp-includes/js/dist/block-editor.js:29116
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 msgid "Copy"
 msgstr "Копировать"
 
@@ -14468,11 +14388,7 @@ msgstr "&larr; Предыдущая страница"
 #: wp-includes/js/dist/components.js:27344
 #: wp-includes/js/dist/components.js:42807
 #: wp-includes/js/dist/components.js:42826
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:35370 wp-admin/export.php:187
-=======
-#: wp-includes/js/dist/block-editor.js:35368 wp-admin/export.php:187
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-admin/export.php:199 wp-admin/export.php:224 wp-admin/export.php:246
 #: wp-admin/export.php:271
 msgid "All"
@@ -14539,11 +14455,7 @@ msgstr "По умолчанию"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:84
 #: wp-includes/media-template.php:1110 wp-includes/class-wp-editor.php:1324
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:32479 wp-admin/options-media.php:61
-=======
-#: wp-includes/js/dist/block-editor.js:32477 wp-admin/options-media.php:61
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 msgid "Height"
 msgstr "Высота"
 
@@ -14662,11 +14574,7 @@ msgstr "<strong>ОШИБКА</strong>: Пожалуйста, введите им
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:78
 #: wp-includes/media-template.php:1105 wp-includes/class-wp-editor.php:1325
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:32468
-=======
-#: wp-includes/js/dist/block-editor.js:32466
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/format-library.js:1029 wp-admin/options-media.php:58
 msgid "Width"
 msgstr "Ширина"
@@ -14753,11 +14661,7 @@ msgid "New Page"
 msgstr "Новая страница"
 
 #: wp-includes/media.php:4189 wp-includes/js/dist/editor.js:7528
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:35609
-=======
-#: wp-includes/js/dist/block-editor.js:35607
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/block-library.js:23728
 #: wp-admin/includes/template.php:1940 wp-admin/theme-editor.php:238
 #: wp-admin/plugin-editor.php:235 wp-admin/nav-menus.php:893
@@ -14770,11 +14674,7 @@ msgstr "Выбрать"
 #: wp-includes/class-wp-customize-manager.php:5688
 #: wp-includes/class-wp-editor.php:1179 wp-includes/class-wp-editor.php:1835
 #: wp-includes/js/dist/components.js:35671
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:35720
-=======
-#: wp-includes/js/dist/block-editor.js:35718
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/edit-post.js:4788 wp-includes/js/dist/edit-post.js:5120
 #: wp-includes/js/dist/edit-post.js:5380
 #: wp-admin/includes/class-wp-theme-install-list-table.php:385
@@ -14925,11 +14825,7 @@ msgstr "Адрес (URL)"
 #. translators: Default privacy policy heading.
 #: wp-includes/media.php:4185 wp-includes/media.php:4750
 #: wp-includes/class-wp-editor.php:1229
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:35036 wp-includes/js/dist/blocks.js:5982
-=======
-#: wp-includes/js/dist/block-editor.js:35034 wp-includes/js/dist/blocks.js:5982
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/core-data.js:2063
 #: wp-admin/includes/class-wp-privacy-policy-content.php:525
 #: wp-admin/includes/media.php:2543 wp-admin/export.php:291
@@ -15123,13 +15019,8 @@ msgstr "Содержимое"
 #: wp-includes/script-loader.php:1106 wp-includes/media.php:4190
 #: wp-includes/class-wp-editor.php:1178 wp-includes/class-wp-editor.php:1881
 #: wp-includes/js/dist/editor.js:11267
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:35085
 #: wp-includes/js/dist/block-editor.js:35088
-=======
-#: wp-includes/js/dist/block-editor.js:35083
-#: wp-includes/js/dist/block-editor.js:35086
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/block-library.js:5022
 #: wp-admin/includes/image-edit.php:97
 #: wp-admin/includes/class-walker-nav-menu-edit.php:296
@@ -15164,13 +15055,8 @@ msgstr "Свежие комментарии"
 #: wp-includes/media-template.php:1443
 #: wp-includes/class-wp-customize-manager.php:4295
 #: wp-includes/class-wp-editor.php:1245
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:28271
 #: wp-includes/js/dist/block-editor.js:36084
-=======
-#: wp-includes/js/dist/block-editor.js:28270
-#: wp-includes/js/dist/block-editor.js:36082
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/block-library.js:15410
 #: wp-admin/includes/class-custom-background.php:258
 #: wp-admin/includes/meta-boxes.php:73 wp-admin/includes/post.php:1766
@@ -15188,13 +15074,8 @@ msgstr "Просмотреть"
 msgid "RSS"
 msgstr "RSS"
 
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:33600
 #: wp-includes/js/dist/block-editor.js:35727
-=======
-#: wp-includes/js/dist/block-editor.js:33598
-#: wp-includes/js/dist/block-editor.js:35725
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-admin/includes/dashboard.php:226 wp-admin/includes/dashboard.php:1322
 #: wp-admin/setup-config.php:252
 msgid "Submit"
@@ -15278,11 +15159,7 @@ msgid "Name"
 msgstr "Имя"
 
 #: wp-includes/class-wp-editor.php:1215
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:36554 wp-admin/edit-link-form.php:34
-=======
-#: wp-includes/js/dist/block-editor.js:36552 wp-admin/edit-link-form.php:34
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 msgid "Advanced"
 msgstr "Дополнительно"
 
@@ -15375,13 +15252,8 @@ msgstr "Комментарии"
 
 #: wp-includes/class-wp-customize-widgets.php:775 wp-includes/media.php:4229
 #: wp-includes/class-wp-editor.php:1386
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:34652
 #: wp-includes/js/dist/block-editor.js:34817
-=======
-#: wp-includes/js/dist/block-editor.js:34650
-#: wp-includes/js/dist/block-editor.js:34815
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/block-library.js:5018
 #: wp-includes/js/dist/block-library.js:25750
 #: wp-includes/js/dist/format-library.js:1035
@@ -15419,15 +15291,9 @@ msgstr "%s назад"
 #: wp-includes/class-wp-editor.php:1384
 #: wp-includes/class-walker-comment.php:250
 #: wp-includes/class-walker-comment.php:438
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:34260
 #: wp-includes/js/dist/block-editor.js:34611
 #: wp-includes/js/dist/block-editor.js:35606
-=======
-#: wp-includes/js/dist/block-editor.js:34258
-#: wp-includes/js/dist/block-editor.js:34609
-#: wp-includes/js/dist/block-editor.js:35604
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/block-library.js:19711
 #: wp-admin/includes/class-wp-links-list-table.php:328
 #: wp-admin/includes/class-walker-nav-menu-edit.php:176
@@ -15481,13 +15347,8 @@ msgstr "Комментарий"
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:94
 #: wp-includes/class-wp-editor.php:1261 wp-includes/class-wp-editor.php:1840
 #: wp-includes/class-wp-customize-nav-menus.php:1257
-<<<<<<< HEAD
 #: wp-includes/js/dist/block-editor.js:33439
 #: wp-includes/js/dist/block-editor.js:34810
-=======
-#: wp-includes/js/dist/block-editor.js:33437
-#: wp-includes/js/dist/block-editor.js:34808
->>>>>>> 25290385c8d99d35990ddac3712c4dca30f8885b
 #: wp-includes/js/dist/block-library.js:14731
 #: wp-admin/includes/class-wp-links-list-table.php:132
 #: wp-admin/includes/class-walker-nav-menu-edit.php:187

@@ -432,8 +432,7 @@ class Recent_Post_Widget extends WP_Widget
 		</p>
 		<p>
 			<label for="<?php echo $this->get_field_id('count'); ?>"><?php _e('Количество постов:'); ?></label>
-			<input class="widefat" id="<?php echo $this->get_field_id('count'); ?>" name="<?php echo
-																																											$this->get_field_name('count'); ?>" type="text" value="<?php echo esc_attr($count); ?>">
+			<input class="widefat" id="<?php echo $this->get_field_id('count'); ?>" name="<?php echo $this->get_field_name('count'); ?>" type="text" value="<?php echo esc_attr($count); ?>">
 		</p>
 	<?php
 	}
